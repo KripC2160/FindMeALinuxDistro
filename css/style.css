@@ -1,0 +1,59 @@
+
+html{
+    background-color: #1C1C1C;
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
+
+#random-button{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width:400px;
+    height:80px;
+    border-radius: 10px;
+    border:2px solid white;
+    outline: none;
+    margin-bottom: 450px;
+
+    transition: transform .2s;
+}
+
+
+#random-button:hover{
+    transform: scale(1.02);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0%;
+}
+
+.BigTitle{
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.suggestions{
+    font-family: 'Anonymous Pro', monospace;
+    outline: none;
+    background: none;
+    border:none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
