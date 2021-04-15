@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FMALD | Suggestions</title>
+        <link rel="shortcut icon" type="image/png" href="../img/randomdistrofavicon.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css"href="../css/style.css" />
+    </head>
+    <body>
+        <script src="../typescript/form.ts"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <h1 class="BigTitle">Find me a Linux Distro</h1>
+        <p class="suggestionText">Hi! I am KripC and I am currently creating this website as a hobby to 
+            get into web development. However website is still missing a lot of things and needs more Linux 
+            Distributions to be 'truly random'. Please submit your suggestions to improve this project!
+        </p>
+        <div class="suggestionForm">
+            <select id="suggestionOption">
+                <option value="0">Select Suggestion Format</option>
+                <option value="1">Feature</option>
+                <option value="2">Feedback</option>
+                <option value="3">Bug</option>
+                <option value="4">Suggest new ditribution</option>
+            </select>
+            <textarea class="formText"></textarea>
+            <button onclick="submitForm()" class="submitButton">Submit</button>
+        </div>
+    </body>
+</html>

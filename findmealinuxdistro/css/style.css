@@ -1,0 +1,124 @@
+
+html{
+    background-color: #1C1C1C;
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+#random-button{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width:400px;
+    height:80px;
+    border-radius: 10px;
+    border:2px solid white;
+    outline: none;
+    margin-bottom: 450px;
+
+    transition: transform .2s;
+}
+
+
+#random-button:hover{
+    transform: scale(1.02);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0%;
+}
+
+.BigTitle{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.smallerTitle{
+    font-family: 'Varela Round', sans-serif;
+    font-style: italic;
+    color: grey;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.suggestions{
+    font-family: 'Anonymous Pro', monospace;
+    outline: none;
+    background: none;
+    border:none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.suggestionText{
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Anonymous Pro', monospace;
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+}
+
+.suggestionForm{
+    position: relative;
+    top: 100px;
+    margin:0 auto;
+    width: 700px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: grey;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#suggestionOption{
+    font-size: 15px;
+    font-family: 'Anonymous Pro', monospace;
+    color:black;
+    background-color: darkgrey;
+    border:1px solid black;
+    border-radius: 5px;
+    position: relative;
+    bottom: 0px;
+}
+
+.formText{
+    text-align: left;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    border:1px solid black;
+    outline:none;
+}
+
+.submitButton{
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    width: 500px;
+    height:30px;
+    border-radius: 5px;
+    border:1px solid black;
+}
