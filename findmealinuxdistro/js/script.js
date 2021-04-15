@@ -27,6 +27,11 @@ function backgroundColor(){
     //document.body.style.background = color_list[color];
 }
 
+function relocateGithub(){
+    var github = "https://github.com/KripC2160/findmealinuxdistro/issues";
+    window.open(github);
+}
+
 var links = [
     "https://ubuntu.com/",
     "https://pop.system76.com/",
