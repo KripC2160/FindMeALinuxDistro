@@ -67,58 +67,17 @@ footer{
     font-size: 15px;
     cursor: pointer;
     margin-bottom: 50px;
+    cursor:pointer;
 }
 
-.suggestionText{
+.GH{
+    cursor: pointer;
     position: relative;
-    top: 50px;
-    margin: 0 auto;
-    width: 1000px;
-    font-family: 'Anonymous Pro', monospace;
-    color: grey;
-    font-size: 20px;
-    text-align: center;
-}
-
-.suggestionForm{
-    position: relative;
-    top: 100px;
-    margin:0 auto;
-    width: 700px;
-    height: 350px;
-    border-radius: 15px;
-    background-color: grey;
-
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
-#suggestionOption{
-    font-size: 15px;
-    font-family: 'Anonymous Pro', monospace;
-    color:black;
-    background-color: darkgrey;
-    border:1px solid black;
-    border-radius: 5px;
-    position: relative;
-    bottom: 0px;
-}
-
-.formText{
-    text-align: left;
-    width: 500px;
-    height: 200px;
-    border-radius: 5px;
-    border:1px solid black;
-    outline:none;
-}
-
-.submitButton{
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 20px;
-    width: 500px;
-    height:30px;
-    border-radius: 5px;
-    border:1px solid black;
+    bottom: 25px;
+    left: -50px;
+    border:none;
+    outline: none;
+    background-color: none;
+    background:none;
+    filter: brightness(150%);
 }
