@@ -56,5 +56,16 @@ var links = [
     "https://www.raspberrypi.org/software/",
     "https://archiveos.org/redstar/",
     "https://store.steampowered.com/steamos",
+    "https://www.centos.org/",
+    "https://www.opensuse.org/",
+    "https://www.openmandriva.org/",
+    "https://www.clearos.com/",
+    "https://www.oracle.com/linux/",
+    "https://scientificlinux.org/",
+    "http://berry.osdn.jp/",
+    "https://archiveos.org/hannah-montana/",
+    "https://archiveos.org/linux-xp/",
+    "https://www.qubes-os.org/",
+    "https://archiveos.org/yellowdog/"
 ];
 var max = links.length;
