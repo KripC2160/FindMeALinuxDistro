@@ -66,6 +66,9 @@ var links = [
     "https://archiveos.org/hannah-montana/",
     "https://archiveos.org/linux-xp/",
     "https://www.qubes-os.org/",
-    "https://archiveos.org/yellowdog/"
+    "https://archiveos.org/yellowdog/",
+    "https://geckolinux.github.io/",
+    "https://www.mageia.org/en/",
+    "https://www.rosalinux.ru/en/home-2/"
 ];
 var max = links.length;
