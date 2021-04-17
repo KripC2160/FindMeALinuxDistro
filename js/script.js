@@ -28,7 +28,7 @@ function backgroundColor(){
 }
 
 function relocateGithubHome(){
-    var githubhome = "https://github.com/KripC2160/findmealinuxdistro/issues";
+    var githubhome = "https://github.com/KripC2160/findmealinuxdistro";
     window.open(githubhome);
 }
 
