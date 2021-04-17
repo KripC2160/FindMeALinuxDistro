@@ -17,7 +17,6 @@ html{
     border:2px solid white;
     outline: none;
     margin-bottom: 450px;
-
     transition: transform .2s;
 }
 
@@ -80,4 +79,9 @@ footer{
     background-color: none;
     background:none;
     filter: brightness(150%);
+    transition: filter .1s;
+}
+
+.GH:hover{
+    filter:brightness(200%);
 }
