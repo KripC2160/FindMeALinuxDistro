@@ -20,6 +20,7 @@ function clicked(){
 function changeButtonColor(){
     var color = Math.floor((Math.random() * 9) + 0);
     document.getElementById("random-button").style.background = color_list[color];
+    document.getElementById("BigTitle").style.color = color_list[color];
 }
 
 function backgroundColor(){
