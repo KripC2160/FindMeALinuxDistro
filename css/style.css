@@ -3,12 +3,22 @@ html{
     background-color: #1C1C1C;
     height: 100%;
 }
-
+/*
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*/
+@font-face{
+    font-family: "Varela Round";
+    src: url("../font/Varela_Round/VarelaRound-Regular.ttf")
+}
+
+@media screen and (min-width: 1600px){
+    @viewport{
+    }
+}
 
 #random-button{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round';
     font-size: 25px;
     text-align: center;
     width:400px;
@@ -34,7 +44,7 @@ html{
 }
 
 .BigTitle{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round';
     font-size: 100px;
     text-align: center;
     color: white;
@@ -42,7 +52,7 @@ html{
 }
 
 .smallerTitle{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round';
     font-style: italic;
     color: grey;
     font-size: 30px;
