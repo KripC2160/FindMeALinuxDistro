@@ -28,6 +28,7 @@ html{
     outline: none;
     margin-bottom: 450px;
     transition: transform .2s;
+    cursor: pointer;
 }
 
 
