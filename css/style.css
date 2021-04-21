@@ -26,7 +26,7 @@ html{
     border-radius: 10px;
     border:2px solid white;
     outline: none;
-    margin-bottom: 450px;
+    margin-bottom: 250px;
     transition: transform .2s;
     cursor: pointer;
 }
