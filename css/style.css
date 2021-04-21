@@ -1,5 +1,4 @@
 
-
 html{
     background-color: #1C1C1C;
     height: 100%;
@@ -9,7 +8,12 @@ html{
 
 @font-face{
     font-family: "Varela Round";
-    src: url("../font/Varela_Round/VarelaRound-Regular.ttf")
+    src: url("../font/Varela_Round/VarelaRound-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Thin.ttf");
 }
 
 @media screen and (min-width: 1600px){
@@ -98,7 +102,7 @@ footer{
 }
 
 .creditsanddate{
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto';    
     color: grey;
     font-size: 15px;
     position: relative;
