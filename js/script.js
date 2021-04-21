@@ -1,6 +1,7 @@
 
 
 var nLines = 0;
+//color palette from https://onaircode.com/html-css-color-palette-code-snippet/
 var color_list = [
     "#ED5565", 
     "#FC6E51", 
