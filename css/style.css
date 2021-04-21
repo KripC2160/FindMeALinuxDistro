@@ -1,12 +1,12 @@
 
+
 html{
     background-color: #1C1C1C;
     height: 100%;
 }
-/*
+
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-*/
+
 @font-face{
     font-family: "Varela Round";
     src: url("../font/Varela_Round/VarelaRound-Regular.ttf")
@@ -95,4 +95,16 @@ footer{
 
 .GH:hover{
     filter:brightness(200%);
+}
+
+.creditsanddate{
+    font-family: 'Roboto', sans-serif;    
+    color: grey;
+    font-size: 15px;
+    position: relative;
+    top: -25px;
+    left: -20px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
 }
