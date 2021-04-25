@@ -128,5 +128,5 @@ var links = [
     "http://www.slackware.com/",
     "https://www.parabola.nu/",
     "https://bedrocklinux.org/",
-    "https://archiveos.org/caldera/
+    "https://archiveos.org/caldera/"
 ];
