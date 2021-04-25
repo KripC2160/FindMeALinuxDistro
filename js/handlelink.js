@@ -128,5 +128,10 @@ var links = [
     "http://www.slackware.com/",
     "https://www.parabola.nu/",
     "https://bedrocklinux.org/",
-    "https://archiveos.org/caldera/
+    "https://archiveos.org/caldera/",
+    "https://archiveos.org/ubuntu-satanic/",
+    "http://www.ubuntuce.com/",
+    "https://sourceforge.net/projects/rebeccablackos/",
+    "https://qntm.org/suicide",
+    "https://www.nova.cu/"
 ];
