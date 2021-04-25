@@ -123,4 +123,5 @@ var links = [
     "https://crux.nu/",
     "https://www.alpinelinux.org/"
     "https://armbian.com"
+    "http://justbrowsinglinux.com/"
 ];
