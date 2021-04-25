@@ -54,7 +54,7 @@ var links = [
     "http://www.ututo.org/en/",
     "https://neon.kde.org/",
     "https://archiveos.org/sabily/",
-    "https://archiveos.org/nova/",
+    "https://www.nova.cu/",
     "https://www.linuxliteos.com/",
     "http://www.linuxmce.org/",
     "https://archiveos.org/cub/",
@@ -132,6 +132,5 @@ var links = [
     "https://archiveos.org/ubuntu-satanic/",
     "http://www.ubuntuce.com/",
     "https://sourceforge.net/projects/rebeccablackos/",
-    "https://qntm.org/suicide",
-    "https://www.nova.cu/"
+    "https://instantos.io"
 ];
