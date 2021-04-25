@@ -124,5 +124,6 @@ var links = [
     "https://www.alpinelinux.org/",
     "https://armbian.com",
     "http://justbrowsinglinux.com/",
-    "https://qntm.org/suicide"
+    "https://qntm.org/suicide",
+    "http://www.slackware.com/"
 ];
