@@ -121,7 +121,8 @@ var links = [
     "https://www.mklinux.org/",
     "http://www.dragora.org/en/index.html",
     "https://crux.nu/",
-    "https://www.alpinelinux.org/"
-    "https://armbian.com"
-    "http://justbrowsinglinux.com/"
+    "https://www.alpinelinux.org/",
+    "https://armbian.com",
+    "http://justbrowsinglinux.com/",
+    "https://qntm.org/suicide"
 ];
