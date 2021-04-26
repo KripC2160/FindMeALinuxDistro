@@ -132,5 +132,6 @@ var links = [
     "https://archiveos.org/ubuntu-satanic/",
     "http://www.ubuntuce.com/",
     "https://sourceforge.net/projects/rebeccablackos/",
-    "https://instantos.io"
+    "https://instantos.io",
+    "https://maboxlinux.org/"
 ];
