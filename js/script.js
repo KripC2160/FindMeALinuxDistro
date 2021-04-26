@@ -1,5 +1,5 @@
 
-
+var EOLToggle = false;
 var nLines = 0;
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
 var color_list = [
@@ -14,20 +14,42 @@ var color_list = [
     "#EC87C0"]; 
 
 function clicked(){
-    changeButtonColor();    
-    window.open(links[Math.floor(Math.random()*links.length)]);
+    changeButtonColor();
+    if (EOLToggle == true){
+        var chosentype = Math.floor((Math.random()*100)+ 1);
+
+        if (chosentype <= 25){
+            window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
+        }
+        else{
+            window.open(links[Math.floor(Math.random()*links.length)]);
+        }
+    }
+    else{
+        window.open(links[Math.floor(Math.random()*links.length)]);
+    }
 }
 
 function changeButtonColor(){
     var color = Math.floor((Math.random() * 9) + 0);
-    document.getElementById("random-button").style.background = color_list[color];
+    document.getElementById("random-button").style.backgroundColor = color_list[color];
     document.getElementById("BigTitle").style.color = color_list[color];
+    if (EOLToggle == true){
+        document.getElementById("EOLon").style.background = color_list[color];
+        document.getElementById("EOLoff").style.backgroundColor = "grey";
+    }
+    else if (EOLToggle == false){
+        document.getElementById("EOLoff").style.backgroundColor = color_list[color];
+        document.getElementById("EOLon").style.backgroundColor = "grey";
+    }
 }
 
+/*
 function backgroundColor(){
     //var color = Math.floor((Math.random() * 9) + 0);
     //document.body.style.background = color_list[color];
 }
+*/
 
 function relocateGithubHome(){
     var githubhome = "https://github.com/KripC2160/findmealinuxdistro";
@@ -37,4 +59,18 @@ function relocateGithubHome(){
 function relocateGithub(){
     var github = "https://github.com/KripC2160/findmealinuxdistro/issues";
     window.open(github);
+}
+
+function toggleEOLon(){
+    if (EOLToggle == false){
+        EOLToggle = true;
+        changeButtonColor();
+    }
+}
+
+function toggleEOLoff(){
+    if (EOLToggle == true){
+        EOLToggle = false;
+        changeButtonColor();
+    }
 }
