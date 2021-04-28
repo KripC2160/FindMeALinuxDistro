@@ -108,7 +108,8 @@ var links = [
     "https://www.parabola.nu/",
     "https://bedrocklinux.org/",
     "https://instantos.io",
-    "https://maboxlinux.org/"
+    "https://maboxlinux.org/",
+    "https://ferenos.weebly.com/"
 ];
 
 var EOLlinks = [
