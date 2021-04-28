@@ -2,6 +2,7 @@
 var EOLToggle = false;
 var nLines = 0;
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
+var curr_color;
 var color_list = [
     "#ED5565", 
     "#FC6E51", 
@@ -32,15 +33,23 @@ function clicked(){
 
 function changeButtonColor(){
     var color = Math.floor((Math.random() * 9) + 0);
-    document.getElementById("random-button").style.backgroundColor = color_list[color];
-    document.getElementById("BigTitle").style.color = color_list[color];
-    if (EOLToggle == true){
-        document.getElementById("EOLon").style.background = color_list[color];
-        document.getElementById("EOLoff").style.backgroundColor = "grey";
+    //added this function so no identical colors will be there 
+    //everytime you load new random color
+    if (color_list[color] == curr_color){
+        changeButtonColor();
     }
-    else if (EOLToggle == false){
-        document.getElementById("EOLoff").style.backgroundColor = color_list[color];
-        document.getElementById("EOLon").style.backgroundColor = "grey";
+    else{
+        document.getElementById("random-button").style.backgroundColor = color_list[color];
+        document.getElementById("BigTitle").style.color = color_list[color];
+        if (EOLToggle == true){
+            document.getElementById("EOLon").style.background = color_list[color];
+            document.getElementById("EOLoff").style.backgroundColor = "grey";
+        }
+        else if (EOLToggle == false){
+            document.getElementById("EOLoff").style.backgroundColor = color_list[color];
+            document.getElementById("EOLon").style.backgroundColor = "grey";
+        }
+        curr_color = color_list[color];
     }
 }
 
