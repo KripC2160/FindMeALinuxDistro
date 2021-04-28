@@ -124,11 +124,11 @@ footer{
 
 .EOLcontainer{
     position: relative;
-    display: flex;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     align-items: center;
-    left: 50%;
-    right: 50%;
     bottom: 200px;
     background: #2D2D2D;
     height: 50px;
@@ -168,13 +168,4 @@ footer{
     border-radius: 5px;
     border:none;
     cursor: pointer;
-}
-
-.EOLtext{
-    font-family: "Varela Round";
-    color: grey;
-    position: relative;
-    bottom: 140px;
-    left: 500px;
-    font-size: 12px;
 }
