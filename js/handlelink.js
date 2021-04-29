@@ -109,7 +109,8 @@ var links = [
     "https://bedrocklinux.org/",
     "https://instantos.io",
     "https://maboxlinux.org/",
-    "https://ferenos.weebly.com/"
+    "https://ferenos.weebly.com/",
+    "https://rebornos.org/"
 ];
 
 var EOLlinks = [
