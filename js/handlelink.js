@@ -110,7 +110,10 @@ var links = [
     "https://instantos.io",
     "https://maboxlinux.org/",
     "https://ferenos.weebly.com/",
-    "https://rebornos.org/"
+    "https://rebornos.org/",
+    "https://archiveos.org/saluki/",
+    "https://archiveos.org/cae/",
+    "https://archiveos.org/carolina/"
 ];
 
 var EOLlinks = [
@@ -136,5 +139,39 @@ var EOLlinks = [
     "https://archiveos.org/nepalinux/",
     "http://berry.osdn.jp/",
     'https://vinelinux.org/',
-    "https://sparkylinux.org/"
+    "https://sparkylinux.org/",
+    "https://archiveos.org/peach/",
+    "https://archiveos.org/lightening/",
+    "https://archiveos.org/advanced/",
+    "https://archiveos.org/mydebian/",
+    "https://archiveos.org/netlinx/",
+    "https://archiveos.org/anonymos/",
+    "https://archiveos.org/bsdeviant/",
+    "https://archiveos.org/desktopbsd/",
+    "https://archiveos.org/frenzy/",
+    "http://www.freesbie.org/",
+    "https://archiveos.org/olivebsd/",
+    "https://archiveos.org/bsd/",
+    "https://archiveos.org/ging/",
+    "https://archiveos.org/gnobsd/",
+    "https://archiveos.org/jabiros/",
+    "https://archiveos.org/ubuntubsd/",
+    "https://archiveos.org/pc-bsd/",
+    "https://archiveos.org/64studio/",
+    "https://archiveos.org/accelerated-knoppix/",
+    "https://archiveos.org/alinux/",
+    "https://archbox-linux.github.io/",
+    "https://archiveos.org/arch-anywhere/",
+    "https://archiveos.org/archeos/",
+    "https://archiveos.org/architect/",
+    "https://www.backtrack-linux.org/",
+    "https://archiveos.org/archmerge/",
+    "https://archiveos.org/bellaos/",
+    "https://archiveos.org/blackaudit/",
+    "http://biebian.sourceforge.net/", //this is the best linux distro ever lmao
+    "https://archiveos.org/bubuntu/",
+    "https://archiveos.org/blankon/",
+    "https://archiveos.org/biolinux/",
+    "https://archiveos.org/black-lab/",
+
 ];
