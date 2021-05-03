@@ -115,7 +115,7 @@ var links = [
 
 var EOLlinks = [
     "https://archiveos.org/redstar/",
-    "https://archiveos.org/hannah-montana/",
+    "http://hannahmontana.sourceforge.net/",
     "https://archiveos.org/linux-xp/",
     "https://archiveos.org/yellowdog/",
     "https://archiveos.org/kateos/",
