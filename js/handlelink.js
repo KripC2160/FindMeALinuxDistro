@@ -110,10 +110,7 @@ var links = [
     "https://instantos.io",
     "https://maboxlinux.org/",
     "https://ferenos.weebly.com/",
-    "https://rebornos.org/",
-    "https://archiveos.org/saluki/",
-    "https://archiveos.org/cae/",
-    "https://archiveos.org/carolina/"
+    "https://rebornos.org/"
 ];
 
 var EOLlinks = [
@@ -173,5 +170,7 @@ var EOLlinks = [
     "https://archiveos.org/blankon/",
     "https://archiveos.org/biolinux/",
     "https://archiveos.org/black-lab/",
-
+    "https://archiveos.org/saluki/",
+    "https://archiveos.org/cae/",
+    "https://archiveos.org/carolina/"
 ];

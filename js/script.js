@@ -43,11 +43,11 @@ function changeButtonColor(){
         document.getElementById("BigTitle").style.color = color_list[color];
         if (EOLToggle == true){
             document.getElementById("EOLon").style.background = color_list[color];
-            document.getElementById("EOLoff").style.backgroundColor = "grey";
+            document.getElementById("EOLoff").style.backgroundColor = "#3D3D3D";
         }
         else if (EOLToggle == false){
             document.getElementById("EOLoff").style.backgroundColor = color_list[color];
-            document.getElementById("EOLon").style.backgroundColor = "grey";
+            document.getElementById("EOLon").style.backgroundColor = "#3D3D3D";
         }
         curr_color = color_list[color];
     }
