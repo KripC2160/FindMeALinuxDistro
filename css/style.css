@@ -1,4 +1,3 @@
-
 html{
     background-color: #1C1C1C;
     height: 100%;
@@ -177,12 +176,12 @@ footer{
     font-size: 12px;
     visibility: hidden;
     width: 120px;
-    background-color: #555;
+    background-color: RGBA(50, 50, 50, 0.9);
     color: #fff;
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
-    border: 5px #555 solid;
+    border: 5px RGBA(50, 50, 50, 0.9); solid;
 
     position: absolute;
     z-index: 1;
