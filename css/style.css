@@ -1,6 +1,10 @@
 html{
     background-color: #1C1C1C;
-    height: 100%;
+    width: 100vw
+}
+
+body{
+    overflow: hidden;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
@@ -181,7 +185,7 @@ footer{
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
-    border: 5px RGBA(50, 50, 50, 0.9); solid;
+    border: 5px RGBA(50, 50, 50, 0.9);
 
     position: absolute;
     z-index: 1;
