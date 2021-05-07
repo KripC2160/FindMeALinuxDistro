@@ -3,10 +3,6 @@ html{
     width: 100vw
 }
 
-body{
-    overflow: hidden;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 
 @font-face{
