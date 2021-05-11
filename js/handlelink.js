@@ -118,7 +118,7 @@ var links = [
     "https://garudalinux.org/",
     "https://www.system-rescue.org/Download/",
     "https://kaosx.us/",
-    "https://voyagerlive.org/" //who ever made this website really needs improve their image quality and streatch resolution :/ 
+    "https://voyagerlive.org/", //who ever made this website really needs improve their image quality and streatch resolution :/ 
     "https://www.bunsenlabs.org/",
     "https://lxle.net/"
 ];
