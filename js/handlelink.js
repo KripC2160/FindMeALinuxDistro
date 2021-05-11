@@ -110,7 +110,17 @@ var links = [
     "https://instantos.io",
     "https://maboxlinux.org/",
     "https://ferenos.weebly.com/",
-    "https://rebornos.org/"
+    "https://rebornos.org/",
+    "https://endlessos.com/home/",
+    "https://www.elivecd.org/",
+    "https://q4os.org/index.html",
+    "https://reactos.org/",
+    "https://garudalinux.org/",
+    "https://www.system-rescue.org/Download/",
+    "https://kaosx.us/",
+    "https://voyagerlive.org/" //who ever made this website really needs improve their image quality and streatch resolution :/ 
+    "https://www.bunsenlabs.org/",
+    "https://lxle.net/"
 ];
 
 var EOLlinks = [
