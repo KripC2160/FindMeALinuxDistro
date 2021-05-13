@@ -120,7 +120,8 @@ var links = [
     "https://kaosx.us/",
     "https://voyagerlive.org/", //who ever made this website really needs improve their image quality and streatch resolution :/ 
     "https://www.bunsenlabs.org/",
-    "https://lxle.net/"
+    "https://lxle.net/",
+    "https://tos.odex.be/"
 ];
 
 var EOLlinks = [
