@@ -299,7 +299,7 @@ var gentoolinks = [
 ];
 
 var EOLgentoolinks = [
-];
+]; //please help me find EOL gentoo distributions 
 
 var slacklinks = [
     "http://www.slackware.com/",
@@ -345,7 +345,7 @@ var suselinks = [
 
 var EOLsuselinks = [
 
-];
+]; //please help me find EOL suse links
 
 var otherlinks =[
     "http://www.lunar-linux.org/",

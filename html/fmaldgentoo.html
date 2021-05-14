@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find Me a Linux Distro|Gentoo</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="shortcut icon" type="image/png" href="../img/randomdistrofavicon.png">
+        <link rel="stylesheet" type="text/css"href="../css/style.css" />
+    </head>
+    <body onload="changeButtonColor()">
+        <script src="../js/gentoo.js"></script>        
+        <script src="../js/handlelink.js"></script>
+        <h1 class="BigTitle" id="BigTitle">FMALD: Gentoo</h1>
+        <h3 class="smallerTitle" id="smallerTitle">Discover new Gentoo distribution with a single click</h3>
+        <div class="content">
+            <button id="random-button" onclick="clicked()">Find Me a Linux Distro</button>
+        </div>
+        <div class="EOLcontainer">
+            <button class="EOLon" id="EOLon" onclick="toggleEOLon()">EOL On</button>
+            <button class="EOLoff" id="EOLoff" onclick="toggleEOLoff()">EOL Off</button>
+            <span class="tip">EOL on End-Of-Life are Linux distrubtions that has reached end of it's life cycle.</span>
+        </div>
+        <footer>
+            <button class="GH" onclick="relocateGithubHome()"><img src="../img/GitHub_logo.png" width="50px" height="50px"></button>
+            <button class="suggestions" id="suggestions" onclick="relocateGithub()">Suggestions?</button>
+            <h2 class="creditsanddate" id="creditsanddate">© <script>document.write(new Date().getFullYear());</script>, Project by KripC</h2> <!-- the script automatically updates the year-->
+        </footer>
+    </body>
+</html>
