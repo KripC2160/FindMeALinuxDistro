@@ -5,3 +5,13 @@
 
 These distributions might be ones you know and use, remixes of distributions, country exclusive, and so much more. FMALD is still needs more distributions so if you have any distribution you want to be in the website, make sure to put them in the [issues](https://github.com/KripC2160/findmealinuxdistro/issues). The Linux distributions however still are focused on ones that run on computer (so no server or mobile Linux). 
 Feedbacks are welcome :D 
+
+----
+**changelogs** 
+
+- added EOL button option 
+- added distro speicfic option
+- created GPL-3.0 license 
+- tweaked random color so no identical color can be chosen in a row
+- dozens of new Linux Distributions 
+- fixed minor errors 
