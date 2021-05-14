@@ -285,7 +285,6 @@ var EOLarchlinks = [
     "https://archbox-linux.github.io/",
     "https://archiveos.org/archeos/",
     "https://archiveos.org/architect/",
-    "https://www.backtrack-linux.org/",
     "https://archiveos.org/archmerge/",
 ];
 
