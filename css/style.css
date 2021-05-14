@@ -1,6 +1,9 @@
 html{
-    background-color: #1C1C1C;
     width: 100vw
+}
+
+body{
+    background-color: #1C1C1C;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
@@ -210,3 +213,228 @@ footer{
     visibility: visible;
     opacity: 1;
   }
+
+
+/*buttons*/
+/* working on it later
+@media only screen and (max-width: 768px) {
+    .FMALDportal{
+        height: 110px;
+        margin-bottom: 10px;
+    }
+    .FMALDREDHAT{
+        bottom: -50px;
+        left: 5px;
+    }
+    .FMALDSUSE{
+        bottom: -50px;
+        left: 65px;
+    }
+    .FMALDSLACK{
+        bottom: -50px;
+        left: 125px;
+    }
+    .FMALDOTHER{
+        bottom: -50px;
+        left: 185px;
+    }
+    .FMALDDEAD{
+        bottom: -50px;
+        left: 245px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .FMALDportal{
+        height: 110px;
+    }
+    .FMALDREDHAT{
+        bottom: -50px;
+        left: 5px;
+    }
+    .FMALDSUSE{
+        bottom: -50px;
+        left: 65px;
+    }
+    .FMALDSLACK{
+        bottom: -50px;
+        left: 125px;
+    }
+    .FMALDOTHER{
+        bottom: -50px;
+        left: 185px;
+    }
+    .FMALDDEAD{
+        bottom: -50px;
+        left: 245px;
+    }
+  }
+  */
+
+.FMALDportal{
+    position: relative;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    bottom: 150px;
+    background: #2D2D2D;
+    height: 50px;
+    width: 540px;
+    border-radius: 5px;
+}
+
+.FMALDALL{
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 50px;
+    left: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.FMALDDEBIAN{
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 50px;
+    left: 65px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.FMALDARCH{
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 50px;
+    left: 125px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.FMALDGENTOO{
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 50px;
+    left: 185px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.FMALDREDHAT{
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 50px;
+    left: 245px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.FMALDSUSE{
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 50px;
+    left: 305px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.FMALDSLACK{
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 50px;
+    left: 365px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.FMALDOTHER{
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 50px;
+    left: 425px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.FMALDDEAD{
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 50px;
+    left: 485px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

@@ -17,10 +17,23 @@
         <div class="content">
             <button id="random-button" onclick="clicked()">Find Me a Linux Distro</button>
         </div>
-        <div class="EOLcontainer">
+        <div class="EOLcontainer" id="EOLcontainer">
             <button class="EOLon" id="EOLon" onclick="toggleEOLon()">EOL On</button>
             <button class="EOLoff" id="EOLoff" onclick="toggleEOLoff()">EOL Off</button>
             <span class="tip">EOL on End-Of-Life are Linux distrubtions that has reached end of it's life cycle.</span>
+        </div>
+        <div class="FMALDportal">
+            <!-- number of items in fmald including index: 9-->
+            <button class="FMALDALL" id="FMALDALL" onclick="TOGGLEALL()">All</button>
+            <button class="FMALDDEBIAN" id="FMALDDEBIAN" onclick="TOGGLEDEBIAN()">DEBIAN</button>
+            <button class="FMALDARCH" id="FMALDARCH" onclick="TOGGLEARCH()">ARCH</button>
+            <button class="FMALDGENTOO" id="FMALDGENTOO" onclick="TOGGLEGENTOO()">GENTOO</button>
+            <button class="FMALDREDHAT" id="FMALDREDHAT" onclick="TOGGLEREDHAT()">RED HAT</button>
+            <button class="FMALDSUSE" id="FMALDSUSE" onclick="TOGGLESUSE()">SuSE</button>
+            <button class="FMALDSLACK" id="FMALDSLACK" onclick="TOGGLESLACK()">Slack</button>
+            <button class="FMALDOTHER" id="FMALDOTHER" onclick="TOGGLEOTHER()">OTHER</button>
+            <button class="FMALDDEAD" id="FMALDDEAD" onclick="TOGGLEDEAD()">EOL</button>
+
         </div>
         <footer>
             <button class="GH" onclick="relocateGithubHome()"><img src="../img/GitHub_logo.png" width="50px" height="50px"></button>
