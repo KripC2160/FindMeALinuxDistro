@@ -16,6 +16,132 @@ var color_list = [
 
 function clicked(){
     changeButtonColor();
+
+    //I regret going yandare mode but I have no choice ;(
+    if (curr_toggle == 0){
+        if (EOLToggle == true){
+            var chosentype = Math.floor((Math.random()*100)+ 1);
+    
+            if (chosentype <= 25){
+                window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
+            }
+            else{
+                window.open(links[Math.floor(Math.random()*links.length)]);
+            }
+        }
+        else{
+            window.open(links[Math.floor(Math.random()*links.length)]);
+        }
+    }
+    else if (curr_toggle == 1){
+        if (EOLToggle == true){
+            var chosentype = Math.floor((Math.random()*100)+ 1);
+    
+            if (chosentype <= 25){
+                window.open(EOLdebianlinks[Math.floor(Math.random()*EOLdebianlinks.length)]);
+            }
+            else{
+                window.open(debainlinks[Math.floor(Math.random()*debainlinks.length)]);
+            }
+        }
+        else{
+            window.open(debainlinks[Math.floor(Math.random()*debainlinks.length)]);
+        }
+    }
+    else if (curr_toggle == 2){
+        if (EOLToggle == true){
+            var chosentype = Math.floor((Math.random()*100)+ 1);
+    
+            if (chosentype <= 25){
+                window.open(EOLarchlinks[Math.floor(Math.random()*EOLarchlinks.length)]);
+            }
+            else{
+                window.open(archlinks[Math.floor(Math.random()*archlinks.length)]);
+            }
+        }
+        else{
+            window.open(archlinks[Math.floor(Math.random()*archlinks.length)]);
+        }
+    }
+    else if (curr_toggle == 3){
+        if (EOLToggle == true){
+            var chosentype = Math.floor((Math.random()*100)+ 1);
+    
+            if (chosentype <= 25){
+                window.open(EOLgentoolinks[Math.floor(Math.random()*EOLgentoolinks.length)]);
+            }
+            else{
+                window.open(gentoolinks[Math.floor(Math.random()*gentoolinks.length)]);
+            }
+        }
+        else{
+            window.open(gentoolinks[Math.floor(Math.random()*gentoolinks.length)]);
+        }
+    }
+    else if (curr_toggle == 4){
+        if (EOLToggle == true){
+            var chosentype = Math.floor((Math.random()*100)+ 1);
+    
+            if (chosentype <= 25){
+                window.open(EOLredhatlinks[Math.floor(Math.random()*EOLredhatlinks.length)]);
+            }
+            else{
+                window.open(redhatlinks[Math.floor(Math.random()*redhatlinks.length)]);
+            }
+        }
+        else{
+            window.open(redhatlinks[Math.floor(Math.random()*redhatlinks.length)]);
+        }
+    }
+    else if (curr_toggle == 5){
+        if (EOLToggle == true){
+            var chosentype = Math.floor((Math.random()*100)+ 1);
+    
+            if (chosentype <= 25){
+                window.open(EOLsuselinks[Math.floor(Math.random()*EOLsuselinks.length)]);
+            }
+            else{
+                window.open(suselinks[Math.floor(Math.random()*suselinks.length)]);
+            }
+        }
+        else{
+            window.open(suselinks[Math.floor(Math.random()*suselinks.length)]);
+        }
+    }
+    else if (curr_toggle == 6){
+        if (EOLToggle == true){
+            var chosentype = Math.floor((Math.random()*100)+ 1);
+    
+            if (chosentype <= 25){
+                window.open(EOLslacklinks[Math.floor(Math.random()*EOLslacklinks.length)]);
+            }
+            else{
+                window.open(slacklinks[Math.floor(Math.random()*slacklinks.length)]);
+            }
+        }
+        else{
+            window.open(slacklinks[Math.floor(Math.random()*slacklinks.length)]);
+        }
+    }
+    else if (curr_toggle == 7){
+        if (EOLToggle == true){
+            var chosentype = Math.floor((Math.random()*100)+ 1);
+    
+            if (chosentype <= 25){
+                window.open(EOLotherlinks[Math.floor(Math.random()*EOLotherlinks.length)]);
+            }
+            else{
+                window.open(otherlinks[Math.floor(Math.random()*otherlinks.length)]);
+            }
+        }
+        else{
+            window.open(otherlinks[Math.floor(Math.random()*otherlinks.length)]);
+        }
+    }
+    else if (curr_toggle == 8){
+            window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
+    }
+    /*
     if (EOLToggle == true){
         var chosentype = Math.floor((Math.random()*100)+ 1);
 
@@ -28,7 +154,7 @@ function clicked(){
     }
     else{
         window.open(links[Math.floor(Math.random()*links.length)]);
-    }
+    }*/
 }
 
 function changeButtonColor(){
@@ -50,6 +176,17 @@ function changeButtonColor(){
             document.getElementById("EOLon").style.backgroundColor = "#3D3D3D";
         }
         curr_color = color_list[color];
+    }
+
+    if (curr_toggle == 8){
+        document.getElementById("EOLon").disabled = true;
+        document.getElementById("EOLoff").disabled = true;
+        document.getElementById("EOLcontainer").style.opacity = "0%";
+    }
+    else{
+        document.getElementById("EOLon").disabled = false;
+        document.getElementById("EOLoff").disabled = false;
+        document.getElementById("EOLcontainer").style.opacity = "100%";
     }
 
     //Couldn't solve it using switch. Screw it I'm going Yandere Dev Mode
