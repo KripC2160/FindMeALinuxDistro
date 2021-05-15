@@ -216,60 +216,19 @@ footer{
 
 
 /*buttons*/
-/* working on it later
 @media only screen and (max-width: 768px) {
     .FMALDportal{
-        height: 110px;
-        margin-bottom: 10px;
+        scale: 70%;
     }
-    .FMALDREDHAT{
-        bottom: -50px;
-        left: 5px;
-    }
-    .FMALDSUSE{
-        bottom: -50px;
-        left: 65px;
-    }
-    .FMALDSLACK{
-        bottom: -50px;
-        left: 125px;
-    }
-    .FMALDOTHER{
-        bottom: -50px;
-        left: 185px;
-    }
-    .FMALDDEAD{
-        bottom: -50px;
-        left: 245px;
-    }
-  }
+}
   
-  @media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
     .FMALDportal{
-        height: 110px;
+        scale: 50%;
+        left: -120px;
     }
-    .FMALDREDHAT{
-        bottom: -50px;
-        left: 5px;
-    }
-    .FMALDSUSE{
-        bottom: -50px;
-        left: 65px;
-    }
-    .FMALDSLACK{
-        bottom: -50px;
-        left: 125px;
-    }
-    .FMALDOTHER{
-        bottom: -50px;
-        left: 185px;
-    }
-    .FMALDDEAD{
-        bottom: -50px;
-        left: 245px;
-    }
-  }
-  */
+}
+
 
 .FMALDportal{
     position: relative;
