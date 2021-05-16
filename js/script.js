@@ -168,25 +168,21 @@ function changeButtonColor(){
         document.getElementById("random-button").style.backgroundColor = color_list[color];
         document.getElementById("BigTitle").style.color = color_list[color];
         if (EOLToggle == true){
-            document.getElementById("EOLon").style.background = color_list[color];
-            document.getElementById("EOLoff").style.backgroundColor = "#3D3D3D";
+            document.getElementById("FMALDEOL").style.backgroundColor = color_list[color];
         }
         else if (EOLToggle == false){
-            document.getElementById("EOLoff").style.backgroundColor = color_list[color];
-            document.getElementById("EOLon").style.backgroundColor = "#3D3D3D";
+            document.getElementById("FMALDEOL").style.backgroundColor = "#3D3D3D";
         }
         curr_color = color_list[color];
     }
 
     if (curr_toggle == 8){
-        document.getElementById("EOLon").disabled = true;
-        document.getElementById("EOLoff").disabled = true;
-        document.getElementById("EOLcontainer").style.opacity = "0%";
+        document.getElementById("FMALDEOL").disabled = true;
+        document.getElementById("FMALDEOL").style.opacity = "30%"
     }
     else{
-        document.getElementById("EOLon").disabled = false;
-        document.getElementById("EOLoff").disabled = false;
-        document.getElementById("EOLcontainer").style.opacity = "100%";
+        document.getElementById("FMALDEOL").disabled = false;
+        document.getElementById("FMALDEOL").style.opacity = "100%"
     }
 
     //Couldn't solve it using switch. Screw it I'm going Yandere Dev Mode
@@ -307,15 +303,12 @@ function relocateGithub(){
     window.open(github);
 }
 
-function toggleEOLon(){
+function TOGGLEEOL(){
     if (EOLToggle == false){
         EOLToggle = true;
         changeButtonColor();
     }
-}
-
-function toggleEOLoff(){
-    if (EOLToggle == true){
+    else if (EOLToggle == true){
         EOLToggle = false;
         changeButtonColor();
     }
