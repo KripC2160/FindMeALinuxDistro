@@ -366,8 +366,9 @@ var otherlinks =[
     "https://bedrocklinux.org/",
     "https://rebornos.org/", //I have no idea which parent distro it's from so for not it belongs here
     "https://reactos.org/", //this one as well
-    "https://kaosx.us/"
-
+    "https://kaosx.us/",
+    "https://thinstation.github.io/thinstation/",
+    "https://spi.dod.mil/lipose.htm" //not only is this distro having issues with security for it's website, the funding ended. Might move to EOL so I would have to keep an eye on them
 ];
 var EOLotherlinks = [
     "https://archiveos.org/kateos/",
