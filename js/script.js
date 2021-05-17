@@ -141,20 +141,6 @@ function clicked(){
     else if (curr_toggle == 8){
             window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
     }
-    /*
-    if (EOLToggle == true){
-        var chosentype = Math.floor((Math.random()*100)+ 1);
-
-        if (chosentype <= 25){
-            window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
-        }
-        else{
-            window.open(links[Math.floor(Math.random()*links.length)]);
-        }
-    }
-    else{
-        window.open(links[Math.floor(Math.random()*links.length)]);
-    }*/
 }
 
 function changeButtonColor(){
@@ -168,21 +154,27 @@ function changeButtonColor(){
         document.getElementById("random-button").style.backgroundColor = color_list[color];
         document.getElementById("BigTitle").style.color = color_list[color];
         if (EOLToggle == true){
-            document.getElementById("FMALDEOL").style.backgroundColor = color_list[color];
+            document.getElementById("EOLon").style.backgroundColor = color_list[color];
+            document.getElementById("EOLoff").style.backgroundColor = "#3D3D3D";
         }
         else if (EOLToggle == false){
-            document.getElementById("FMALDEOL").style.backgroundColor = "#3D3D3D";
-        }
+            document.getElementById("EOLon").style.backgroundColor = "#3D3D3D";
+            document.getElementById("EOLoff").style.backgroundColor = color_list[color];     
+        }   
         curr_color = color_list[color];
     }
 
     if (curr_toggle == 8){
-        document.getElementById("FMALDEOL").disabled = true;
-        document.getElementById("FMALDEOL").style.opacity = "30%"
+        document.getElementById("EOLon").style.disabled = true;
+        document.getElementById("EOLoff").style.disabled = true;
+        document.getElementById("EOLon").style.opacity = "30%";
+        document.getElementById("EOLoff").style.opacity = "30%";
     }
     else{
-        document.getElementById("FMALDEOL").disabled = false;
-        document.getElementById("FMALDEOL").style.opacity = "100%"
+        document.getElementById("EOLon").style.disabled = false;
+        document.getElementById("EOLoff").style.disabled = false;
+        document.getElementById("EOLon").style.opacity = "100%";
+        document.getElementById("EOLoff").style.opacity = "100%";
     }
 
     //Couldn't solve it using switch. Screw it I'm going Yandere Dev Mode
@@ -304,13 +296,15 @@ function relocateGithub(){
 }
 
 function TOGGLEEOL(){
-    if (EOLToggle == false){
-        EOLToggle = true;
-        changeButtonColor();
-    }
-    else if (EOLToggle == true){
-        EOLToggle = false;
-        changeButtonColor();
+    if (curr_toggle != 8){
+        if (EOLToggle == false){
+            EOLToggle = true;
+            changeButtonColor();
+        }
+        else if (EOLToggle == true){
+            EOLToggle = false;
+            changeButtonColor();
+        }
     }
 }
 
