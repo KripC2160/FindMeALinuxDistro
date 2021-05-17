@@ -15,8 +15,6 @@ var color_list = [
     "#EC87C0"]; //pink 
 
 function clicked(){
-    changeButtonColor();
-
     //I regret going yandare mode but I have no choice ;(
     if (curr_toggle == 0){
         if (EOLToggle == true){
@@ -311,46 +309,64 @@ function TOGGLEEOL(){
 //option buttons
 
 function TOGGLEALL(){
-    curr_toggle = 0;
-    changeButtonColor();
+    if (curr_color != 0){
+        curr_toggle = 0;
+        changeButtonColor();
+    }
 }
 
 function TOGGLEDEBIAN(){
-    curr_toggle = 1;
-    changeButtonColor();
+    if (curr_toggle != 1){
+        curr_toggle = 1;
+        changeButtonColor();
+    }
 }
 
 function TOGGLEARCH(){
-    curr_toggle = 2;
-    changeButtonColor();
+    if (curr_toggle != 2){
+        curr_toggle = 2;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLEGENTOO(){
-    curr_toggle = 3;
-    changeButtonColor();
+    if (curr_toggle != 3){
+        curr_toggle = 3;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLEREDHAT(){
-    curr_toggle = 4;
-    changeButtonColor();
+    if (curr_toggle != 4){
+        curr_toggle = 4;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLESUSE(){
-    curr_toggle = 5;
-    changeButtonColor();
+    if (curr_toggle != 5){
+        curr_toggle = 5;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLESLACK(){
-    curr_toggle = 6;
-    changeButtonColor();
+    if (curr_toggle != 6){
+        curr_toggle = 6;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLEOTHER(){
-    curr_toggle = 7;
-    changeButtonColor();
+    if (curr_toggle != 7){
+        curr_toggle = 7;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLEDEAD(){
-    curr_toggle = 8;
-    changeButtonColor();
+    if (curr_toggle != 8){
+        curr_toggle = 8;
+        changeButtonColor();   
+    }
 }
