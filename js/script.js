@@ -15,8 +15,6 @@ var color_list = [
     "#EC87C0"]; //pink 
 
 function clicked(){
-    changeButtonColor();
-
     //I regret going yandare mode but I have no choice ;(
     if (curr_toggle == 0){
         if (EOLToggle == true){
@@ -141,20 +139,6 @@ function clicked(){
     else if (curr_toggle == 8){
             window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
     }
-    /*
-    if (EOLToggle == true){
-        var chosentype = Math.floor((Math.random()*100)+ 1);
-
-        if (chosentype <= 25){
-            window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
-        }
-        else{
-            window.open(links[Math.floor(Math.random()*links.length)]);
-        }
-    }
-    else{
-        window.open(links[Math.floor(Math.random()*links.length)]);
-    }*/
 }
 
 function changeButtonColor(){
@@ -168,25 +152,27 @@ function changeButtonColor(){
         document.getElementById("random-button").style.backgroundColor = color_list[color];
         document.getElementById("BigTitle").style.color = color_list[color];
         if (EOLToggle == true){
-            document.getElementById("EOLon").style.background = color_list[color];
+            document.getElementById("EOLon").style.backgroundColor = color_list[color];
             document.getElementById("EOLoff").style.backgroundColor = "#3D3D3D";
         }
         else if (EOLToggle == false){
-            document.getElementById("EOLoff").style.backgroundColor = color_list[color];
             document.getElementById("EOLon").style.backgroundColor = "#3D3D3D";
-        }
+            document.getElementById("EOLoff").style.backgroundColor = color_list[color];     
+        }   
         curr_color = color_list[color];
     }
 
     if (curr_toggle == 8){
-        document.getElementById("EOLon").disabled = true;
-        document.getElementById("EOLoff").disabled = true;
-        document.getElementById("EOLcontainer").style.opacity = "0%";
+        document.getElementById("EOLon").style.disabled = true;
+        document.getElementById("EOLoff").style.disabled = true;
+        document.getElementById("EOLon").style.opacity = "30%";
+        document.getElementById("EOLoff").style.opacity = "30%";
     }
     else{
-        document.getElementById("EOLon").disabled = false;
-        document.getElementById("EOLoff").disabled = false;
-        document.getElementById("EOLcontainer").style.opacity = "100%";
+        document.getElementById("EOLon").style.disabled = false;
+        document.getElementById("EOLoff").style.disabled = false;
+        document.getElementById("EOLon").style.opacity = "100%";
+        document.getElementById("EOLoff").style.opacity = "100%";
     }
 
     //Couldn't solve it using switch. Screw it I'm going Yandere Dev Mode
@@ -307,63 +293,80 @@ function relocateGithub(){
     window.open(github);
 }
 
-function toggleEOLon(){
-    if (EOLToggle == false){
-        EOLToggle = true;
-        changeButtonColor();
-    }
-}
-
-function toggleEOLoff(){
-    if (EOLToggle == true){
-        EOLToggle = false;
-        changeButtonColor();
+function TOGGLEEOL(){
+    if (curr_toggle != 8){
+        if (EOLToggle == false){
+            EOLToggle = true;
+            changeButtonColor();
+        }
+        else if (EOLToggle == true){
+            EOLToggle = false;
+            changeButtonColor();
+        }
     }
 }
 
 //option buttons
 
 function TOGGLEALL(){
-    curr_toggle = 0;
-    changeButtonColor();
+    if (curr_color != 0){
+        curr_toggle = 0;
+        changeButtonColor();
+    }
 }
 
 function TOGGLEDEBIAN(){
-    curr_toggle = 1;
-    changeButtonColor();
+    if (curr_toggle != 1){
+        curr_toggle = 1;
+        changeButtonColor();
+    }
 }
 
 function TOGGLEARCH(){
-    curr_toggle = 2;
-    changeButtonColor();
+    if (curr_toggle != 2){
+        curr_toggle = 2;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLEGENTOO(){
-    curr_toggle = 3;
-    changeButtonColor();
+    if (curr_toggle != 3){
+        curr_toggle = 3;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLEREDHAT(){
-    curr_toggle = 4;
-    changeButtonColor();
+    if (curr_toggle != 4){
+        curr_toggle = 4;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLESUSE(){
-    curr_toggle = 5;
-    changeButtonColor();
+    if (curr_toggle != 5){
+        curr_toggle = 5;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLESLACK(){
-    curr_toggle = 6;
-    changeButtonColor();
+    if (curr_toggle != 6){
+        curr_toggle = 6;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLEOTHER(){
-    curr_toggle = 7;
-    changeButtonColor();
+    if (curr_toggle != 7){
+        curr_toggle = 7;
+        changeButtonColor();   
+    }
 }
 
 function TOGGLEDEAD(){
-    curr_toggle = 8;
-    changeButtonColor();
+    if (curr_toggle != 8){
+        curr_toggle = 8;
+        changeButtonColor();   
+    }
 }
