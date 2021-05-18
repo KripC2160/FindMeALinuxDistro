@@ -123,7 +123,8 @@ var links = [
     "https://lxle.net/",
     "https://tos.odex.be/",
      "https://thinstation.github.io/thinstation/",
-    "https://spi.dod.mil/lipose.htm" //not only is this distro having issues with security for it's website, the funding ended. Might move to EOL so I would have to keep an eye on them
+    "https://spi.dod.mil/lipose.htm", //not only is this distro having issues with security for it's website, the funding ended. Might move to EOL so I would have to keep an eye on them
+    "https://sourceforge.net/projects/rebeccablackos/" //Rebecca Black operating system 
 ];
 
 var EOLlinks = [
@@ -235,7 +236,8 @@ var debainlinks = [
     "https://q4os.org/index.html",
     "https://voyagerlive.org/",
     "https://www.bunsenlabs.org/",
-    "https://lxle.net/"
+    "https://lxle.net/",
+    "https://sourceforge.net/projects/rebeccablackos/" //Rebecca Black operating system 
 ];
 
 var EOLdebianlinks = [
