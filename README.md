@@ -7,11 +7,8 @@ These distributions might be ones you know and use, remixes of distributions, co
 Feedbacks are welcome :D 
 
 ----
-**changelogs** 
+**changelogs v1.2.6** 
 
-- added EOL button option 
-- added distro speicfic option
-- created GPL-3.0 license 
-- tweaked random color so no identical color can be chosen in a row
-- dozens of new Linux Distributions 
+- EOL buttons have now changed | instead of being a seperate button from distro-exclusive buttons, it is in the same section to make it easier to maintaine and look cleaner 
+- included new Linux Distributions 
 - fixed minor errors 
