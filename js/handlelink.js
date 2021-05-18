@@ -176,7 +176,8 @@ var EOLlinks = [
     "https://www.caelinux.com/CMS3/",
     "https://archiveos.org/carolina/",
     "http://ubuntuce.com/" //christian ubuntu XD 
-    "https://archiveos.org/ubuntu-satanic/" //in the other spectrum we have satanic ubuntu
+    "https://archiveos.org/ubuntu-satanic/", //in the other spectrum we have satanic ubuntu
+    "https://www.caine-live.net/"
 ];
 
 
@@ -265,7 +266,8 @@ var EOLdebianlinks = [
     "https://archiveos.org/black-lab/",
     "https://www.caelinux.com/CMS3/",
     "http://ubuntuce.com/", //Bible also included in the distribution :O
-    "https://archiveos.org/ubuntu-satanic/" //not sure if this distro has book of sin included 
+    "https://archiveos.org/ubuntu-satanic/", //not sure if this distro has book of sin included
+    "https://www.caine-live.net/"
 ];
 
 var archlinks = [
