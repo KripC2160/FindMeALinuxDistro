@@ -7,10 +7,3 @@ These distributions might be ones you know and use, remixes of distributions, co
 Feedbacks are welcome :D 
 
 Development progress can be seen on Trello here: https://trello.com/b/ZRRj5Raf/fmald-dev-list
-
-----
-**changelogs v1.2.6** 
-
-- EOL buttons have now changed | instead of being a seperate button from distro-exclusive buttons, it is in the same section to make it easier to maintaine and look cleaner 
-- included new Linux Distributions 
-- fixed minor errors 
