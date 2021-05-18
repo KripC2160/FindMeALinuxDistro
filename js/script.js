@@ -293,13 +293,18 @@ function relocateGithub(){
     window.open(github);
 }
 
-function TOGGLEEOL(){
+function TOGGLEEOLON(){
     if (curr_toggle != 8){
         if (EOLToggle == false){
             EOLToggle = true;
             changeButtonColor();
         }
-        else if (EOLToggle == true){
+    }
+}
+
+function TOGGLEEOLOFF(){
+    if (curr_toggle != 8){
+        if (EOLToggle == true){
             EOLToggle = false;
             changeButtonColor();
         }
