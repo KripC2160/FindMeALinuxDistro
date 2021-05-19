@@ -176,7 +176,7 @@ var EOLlinks = [
     "https://archiveos.org/saluki/",
     "https://www.caelinux.com/CMS3/",
     "https://archiveos.org/carolina/",
-    "http://ubuntuce.com/" //christian ubuntu XD 
+    "http://ubuntuce.com/", //christian ubuntu XD 
     "https://archiveos.org/ubuntu-satanic/", //in the other spectrum we have satanic ubuntu
     "https://www.caine-live.net/"
 ];
