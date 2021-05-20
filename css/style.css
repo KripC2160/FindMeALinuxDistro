@@ -366,7 +366,7 @@ footer{
 
 hr{
     position:absolute;
-    left: 540px;
+    left: 480px;
     background-color: #fff;
     border-radius: 5px;
     border:none;
@@ -383,7 +383,7 @@ hr{
     margin: 0 auto;
     height: 35px;
     width: 50px;
-    left: 545px;
+    left: 485px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -400,8 +400,25 @@ hr{
     margin: 0 auto;
     height: 35px;
     width: 50px;
-    left: 605px;
+    left: 545px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+
+.EOLonly{
+    font-family: "Anonymous Pro", monospace;
+    color: white;
+    text-align: center;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 35px;
+    width: 50px;
+    left: 605px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;   
 }

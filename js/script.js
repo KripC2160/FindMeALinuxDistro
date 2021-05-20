@@ -1,5 +1,5 @@
 
-var EOLToggle = false;
+var EOLToggle = 2;
 var curr_toggle = 1;
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
 var curr_color;
@@ -15,10 +15,9 @@ var color_list = [
     "#EC87C0"]; //pink 
 
 function clicked(){
-    //I regret going yandare mode but I have no choice ;(
     switch(curr_toggle){
         case 1:
-            if (EOLToggle == true){
+            if (EOLToggle == 1){
                 var chosentype = Math.floor((Math.random()*100)+ 1);
         
                 if (chosentype <= 25){
@@ -28,12 +27,15 @@ function clicked(){
                     window.open(links[Math.floor(Math.random()*links.length)]);
                 }
             }
-            else{
+            else if(EOLToggle == 2){
                 window.open(links[Math.floor(Math.random()*links.length)]);
+            }
+            else if(EOLToggle == 3){
+                window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
             }
             break;
         case 2:
-            if (EOLToggle == true){
+            if (EOLToggle == 1){
                 var chosentype = Math.floor((Math.random()*100)+ 1);
         
                 if (chosentype <= 25){
@@ -43,12 +45,15 @@ function clicked(){
                     window.open(debainlinks[Math.floor(Math.random()*debainlinks.length)]);
                 }
             }
-            else{
+            else if(EOLToggle == 2){
                 window.open(debainlinks[Math.floor(Math.random()*debainlinks.length)]);
+            }
+            else if(EOLToggle ==3){
+                window.open(EOLdebianlinks[Math.floor(Math.random()*EOLdebianlinks.length)]);
             }
             break;
         case 3:
-            if (EOLToggle == true){
+            if (EOLToggle == 1){
                 var chosentype = Math.floor((Math.random()*100)+ 1);
         
                 if (chosentype <= 25){
@@ -58,12 +63,15 @@ function clicked(){
                     window.open(archlinks[Math.floor(Math.random()*archlinks.length)]);
                 }
             }
-            else{
+            else if(EOLToggle == 2) {
                 window.open(archlinks[Math.floor(Math.random()*archlinks.length)]);
+            }
+            else if (EOLToggle ==3){
+                window.open(EOLarchlinks[Math.floor(Math.random()*EOLarchlinks.length)]);
             }
             break;
         case 4:
-            if (EOLToggle == true){
+            if (EOLToggle == 1){
                 var chosentype = Math.floor((Math.random()*100)+ 1);
         
                 if (chosentype <= 25){
@@ -73,12 +81,15 @@ function clicked(){
                     window.open(gentoolinks[Math.floor(Math.random()*gentoolinks.length)]);
                 }
             }
-            else{
+            else if(EOLToggle == 2){
                 window.open(gentoolinks[Math.floor(Math.random()*gentoolinks.length)]);
+            }
+            else if(EOLToggle == 3){
+                window.open(EOLgentoolinks[Math.floor(Math.random()*gentoolinks.length)]);
             }
              break;
         case 5:
-            if (EOLToggle == true){
+            if (EOLToggle == 1){
                 var chosentype = Math.floor((Math.random()*100)+ 1);
         
                 if (chosentype <= 25){
@@ -88,12 +99,15 @@ function clicked(){
                     window.open(redhatlinks[Math.floor(Math.random()*redhatlinks.length)]);
                 }
             }
-            else{
+            else if(EOLToggle == 2){
                 window.open(redhatlinks[Math.floor(Math.random()*redhatlinks.length)]);
+            }
+            else if(EOLToggle == 3){
+                window.open(EOLredhatlinks[Math.floor(Math.random()*EOLredhatlinks.length)]);
             }
             break;
         case 6:
-            if (EOLToggle == true){
+            if (EOLToggle == 1){
                 var chosentype = Math.floor((Math.random()*100)+ 1);
         
                 if (chosentype <= 25){
@@ -103,12 +117,15 @@ function clicked(){
                     window.open(suselinks[Math.floor(Math.random()*suselinks.length)]);
                 }
             }
-            else{
+            else if(EOLToggle == 2){
                 window.open(suselinks[Math.floor(Math.random()*suselinks.length)]);
+            }
+            else if(EOLToggle == 3){
+                window.open(EOLsuselinks[Math.floor(Math.random()*EOLsuselinks.length)]);
             }
             break;
         case 7:
-            if (EOLToggle == true){
+            if (EOLToggle == 1){
                 var chosentype = Math.floor((Math.random()*100)+ 1);
         
                 if (chosentype <= 25){
@@ -118,27 +135,30 @@ function clicked(){
                     window.open(slacklinks[Math.floor(Math.random()*slacklinks.length)]);
                 }
             }
-            else{
+            else if (EOLToggle == 2){
                 window.open(slacklinks[Math.floor(Math.random()*slacklinks.length)]);
+            }
+            else if(EOLToggle == 3){
+                window.open(EOLslacklinks[Math.floor(Math.random()*EOLslacklinks.length)]);
             }
             break;
         case 8: 
-        if (EOLToggle == true){
-            var chosentype = Math.floor((Math.random()*100)+ 1);
+            if (EOLToggle == 1){
+                var chosentype = Math.floor((Math.random()*100)+ 1);
     
-            if (chosentype <= 25){
-                window.open(EOLotherlinks[Math.floor(Math.random()*EOLotherlinks.length)]);
+                if (chosentype <= 25){
+                    window.open(EOLotherlinks[Math.floor(Math.random()*EOLotherlinks.length)]);
+                }
+                else{
+                    window.open(otherlinks[Math.floor(Math.random()*otherlinks.length)]);
+                }
             }
-            else{
+            else if(EOLToggle == 2){
                 window.open(otherlinks[Math.floor(Math.random()*otherlinks.length)]);
             }
-        }
-        else{
-            window.open(otherlinks[Math.floor(Math.random()*otherlinks.length)]);
-        }
-            break;
-        case 9: 
-            window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
+            else if(EOLToggle ==3){
+                window.open(EOLotherlinks[Math.floor(Math.random()*EOLotherlinks.length)]);
+            }
             break;
     }
 }
@@ -157,6 +177,7 @@ function changeButtonColor(){
                     document.getElementById("EOLon").style.backgroundColor = color_list[1];
                     document.getElementById("EOLoff").style.backgroundColor = color_list[1];
                     document.getElementById("random-button").style.backgroundColor=color_list[1];
+                    document.getElementById("EOLonly").style.backgroundColor = color_list[1];
                     document.getElementById("BigTitle").style.color = color_list[1];
                     document.getElementById("FMALDDEBIAN").style.backgroundColor = "#FC6E51";
                     document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
@@ -166,11 +187,11 @@ function changeButtonColor(){
                     document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDDEAD").style.backgroundColor = "#3D3D3D";
                     break;
                 case 3:
                     document.getElementById("EOLon").style.backgroundColor = color_list[5];
                     document.getElementById("EOLoff").style.backgroundColor = color_list[5];
+                    document.getElementById("EOLonly").style.backgroundColor = color_list[5];
                     document.getElementById("random-button").style.backgroundColor=color_list[5];
                     document.getElementById("BigTitle").style.color = color_list[5];
                     document.getElementById("FMALDARCH").style.backgroundColor = color_list[5];
@@ -181,11 +202,11 @@ function changeButtonColor(){
                     document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDDEAD").style.backgroundColor = "#3D3D3D";
                     break;
                 case 4:
                     document.getElementById("EOLon").style.backgroundColor = color_list[7];
                     document.getElementById("EOLoff").style.backgroundColor = color_list[7];
+                    document.getElementById("EOLonly").style.backgroundColor = color_list[7];
                     document.getElementById("random-button").style.backgroundColor=color_list[7];
                     document.getElementById("BigTitle").style.color = color_list[7];
                     document.getElementById("FMALDGENTOO").style.backgroundColor = "#AC92EC";
@@ -196,11 +217,11 @@ function changeButtonColor(){
                     document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDDEAD").style.backgroundColor = "#3D3D3D";
                     break;
                 case 5:
                     document.getElementById("EOLon").style.backgroundColor = color_list[0];
                     document.getElementById("EOLoff").style.backgroundColor = color_list[0];
+                    document.getElementById("EOLonly").style.backgroundColor = color_list[0];
                     document.getElementById("random-button").style.backgroundColor=color_list[0];
                     document.getElementById("BigTitle").style.color = color_list[0];
                     document.getElementById("FMALDREDHAT").style.backgroundColor = "#ED5565";
@@ -211,11 +232,11 @@ function changeButtonColor(){
                     document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDDEAD").style.backgroundColor = "#3D3D3D";
                     break;
                 case 6: 
                     document.getElementById("EOLon").style.backgroundColor = color_list[3];
                     document.getElementById("EOLoff").style.backgroundColor = color_list[3];
+                    document.getElementById("EOLonly").style.backgroundColor = color_list[3];
                     document.getElementById("random-button").style.backgroundColor=color_list[3];
                     document.getElementById("BigTitle").style.color = color_list[3];
                     document.getElementById("FMALDSUSE").style.backgroundColor = "#A0D468";
@@ -225,12 +246,12 @@ function changeButtonColor(){
                     document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDDEAD").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
                     break;
                 case 7:
                     document.getElementById("EOLon").style.backgroundColor = color_list[6];
                     document.getElementById("EOLoff").style.backgroundColor = color_list[6];
+                    document.getElementById("EOLonly").style.backgroundColor = color_list[6];
                     document.getElementById("random-button").style.backgroundColor=color_list[6];
                     document.getElementById("BigTitle").style.color = color_list[6];
                     document.getElementById("FMALDSLACK").style.backgroundColor = "#5D9CEC";
@@ -240,12 +261,12 @@ function changeButtonColor(){
                     document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDDEAD").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
                     break;
                 case 8:
                     document.getElementById("EOLon").style.backgroundColor = "#FFF";
                     document.getElementById("EOLoff").style.backgroundColor = "#FFF";
+                    document.getElementById("EOLonly").style.backgroundColor = "#FFF";
                     document.getElementById("random-button").style.backgroundColor= "#FFF";
                     document.getElementById("BigTitle").style.color = "#FFF";
                     document.getElementById("FMALDOTHER").style.backgroundColor = "#F5F7FA";
@@ -256,23 +277,6 @@ function changeButtonColor(){
                     document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDDEAD").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
-                    break;
-                case 9:
-                    document.getElementById("EOLon").style.backgroundColor = "#656D78";
-                    document.getElementById("EOLoff").style.backgroundColor = "#656D78";
-                    document.getElementById("random-button").style.backgroundColor="#656D78";
-                    document.getElementById("BigTitle").style.color = "#656D78";
-                    document.getElementById("FMALDDEAD").style.backgroundColor = "#656D78";
-                    document.getElementById("FMALDOTHER").style.color = "#3D3D3D";
-                    document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDDEBIAN").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
-                    document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
                     document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
                     break;
             }
@@ -280,6 +284,7 @@ function changeButtonColor(){
         else{
             document.getElementById("EOLon").style.backgroundColor = color_list[color];
             document.getElementById("EOLoff").style.backgroundColor = color_list[color];
+            document.getElementById("EOLonly").style.backgroundColor = color_list[color];
             document.getElementById("random-button").style.backgroundColor = color_list[color];
             document.getElementById("BigTitle").style.color = color_list[color];
             document.getElementById("FMALDALL").style.backgroundColor = color_list[color];
@@ -290,29 +295,44 @@ function changeButtonColor(){
             document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
             document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
             document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDDEAD").style.backgroundColor = "#3D3D3D";
         }
     }
-        if (EOLToggle == true){
+        if (EOLToggle == 1){
             if (curr_toggle == 8){
                 document.getElementById("EOLon").style.color = "#3D3D3D";
+                document.getElementById("EOLonly").style.color = "white";
                 document.getElementById("EOLoff").style.color = "white";
             }
             else{
                 document.getElementById("EOLon").style.color = "white";
             }
             document.getElementById("EOLoff").style.backgroundColor = "#3D3D3D";
+            document.getElementById("EOLonly").style.backgroundColor = "#3D3D3D";
         }
-        else if (EOLToggle == false){
+        else if (EOLToggle == 2){
             if (curr_toggle == 8){
                 document.getElementById("EOLoff").style.color = "#3D3D3D";
+                document.getElementById("EOLonly").style.color = "white";
                 document.getElementById("EOLon").style.color = "white";
             }
             else{
                 document.getElementById("EOLoff").style.color = "white";
             }
             document.getElementById("EOLon").style.backgroundColor = "#3D3D3D";
-        }   
+            document.getElementById("EOLonly").style.backgroundColor = "#3D3D3D";
+        }
+        else if (EOLToggle == 3){
+            if (curr_toggle == 8){
+                document.getElementById("EOLonly").style.color = "#3D3D3D";
+                document.getElementById("EOLoff").style.color = "white"
+                document.getElementById("EOLon").style.color = "white"
+            }
+            else{
+                document.getElementById("EOLonly").style.color = "white";
+            }
+            document.getElementById("EOLon").style.backgroundColor = "#3D3D3D";
+            document.getElementById("EOLoff").style.backgroundColor = "#3D3D3D";
+        }
         curr_color = color_list[color];
     
 
@@ -347,20 +367,23 @@ function relocateGithub(){
 }
 
 function TOGGLEEOLON(){
-    if (curr_toggle != 9){
-        if (EOLToggle == false){
-            EOLToggle = true;
-            changeButtonColor();
-        }
+    if (EOLToggle != 1){
+        EOLToggle = 1;
+        changeButtonColor();
     }
 }
 
 function TOGGLEEOLOFF(){
-    if (curr_toggle != 9){
-        if (EOLToggle == true){
-            EOLToggle = false;
-            changeButtonColor();
-        }
+    if (EOLToggle != 2){
+        EOLToggle = 2;
+        changeButtonColor();
+    }
+}
+
+function TOGGLEEOLONLY(){
+    if (EOLToggle != 3){
+        EOLToggle = 3;
+        changeButtonColor();
     }
 }
 
@@ -418,13 +441,6 @@ function TOGGLESLACK(){
 function TOGGLEOTHER(){
     if (curr_toggle != 8){
         curr_toggle = 8;
-        changeButtonColor();   
-    }
-}
-
-function TOGGLEDEAD(){
-    if (curr_toggle != 9){
-        curr_toggle = 9;
         changeButtonColor();   
     }
 }
