@@ -330,23 +330,6 @@ footer{
     cursor: pointer;
 }
 
-.FMALDDEAD{
-    font-family: "Anonymous Pro", monospace;
-    color: white;
-    text-align: center;
-    position: absolute;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    height: 35px;
-    width: 50px;
-    left: 485px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-}
-
 .FMALDEOL{
     font-family: "Anonymous Pro", monospace;
     color: white;
@@ -383,7 +366,7 @@ hr{
     margin: 0 auto;
     height: 35px;
     width: 50px;
-    left: 485px;
+    left: 545px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -400,7 +383,7 @@ hr{
     margin: 0 auto;
     height: 35px;
     width: 50px;
-    left: 545px;
+    left: 485px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
