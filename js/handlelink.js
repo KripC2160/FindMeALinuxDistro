@@ -178,7 +178,27 @@ var EOLlinks = [
     "https://archiveos.org/carolina/",
     "http://ubuntuce.com/", //christian ubuntu XD 
     "https://archiveos.org/ubuntu-satanic/", //in the other spectrum we have satanic ubuntu
-    "https://www.caine-live.net/"
+    "https://www.caine-live.net/",
+    "https://archiveos.org/asplinux/",
+    "https://archiveos.org/tao/",
+    "https://archiveos.org/topologilinux/",
+    "https://archiveos.org/startcom/",
+    "https://archiveos.org/rivendell/",
+    "https://archiveos.org/united/",
+    "https://archiveos.org/caixa-magica/",
+    "https://archiveos.org/karamad/",
+    "http://urix.us/",
+    "https://archiveos.org/delix/",
+    "https://archiveos.org/vlos/",
+    "https://archiveos.org/slontoo/",
+    "https://gentoox.shallax.com/",
+    "https://archiveos.org/gentooth/",
+    "https://archiveos.org/cloveros/",
+    "https://archiveos.org/bintoo/",
+    "https://archiveos.org/phaeronix/",
+    "https://archiveos.org/bitdefender/",
+    "https://archiveos.org/muriqui/",
+    "https://archiveos.org/kde-four-live/"
 ];
 
 
@@ -269,7 +289,10 @@ var EOLdebianlinks = [
     "https://www.caelinux.com/CMS3/",
     "http://ubuntuce.com/", //Bible also included in the distribution :O
     "https://archiveos.org/ubuntu-satanic/", //not sure if this distro has book of sin included
-    "https://www.caine-live.net/"
+    "https://www.caine-live.net/",
+    "https://archiveos.org/caixa-magica/",
+    "https://archiveos.org/delix/",
+    "https://archiveos.org/muriqui/"
 ];
 
 var archlinks = [
@@ -308,7 +331,15 @@ var gentoolinks = [
 ];
 
 var EOLgentoolinks = [
-]; //please help me find EOL gentoo distributions 
+    "https://archiveos.org/vlos/",
+    "https://archiveos.org/slontoo/",
+    "https://gentoox.shallax.com/",
+    "https://archiveos.org/gentooth/",
+    "https://archiveos.org/cloveros/",
+    "https://archiveos.org/bintoo/",
+    "https://archiveos.org/phaeronix/",
+    "https://archiveos.org/bitdefender/"
+]; 
 
 var slacklinks = [
     "http://www.slackware.com/",
@@ -322,7 +353,9 @@ var slacklinks = [
 ];
 
 var EOLslacklinks = [
-    "https://archiveos.org/vector/"
+    "https://archiveos.org/vector/",
+    "https://archiveos.org/topologilinux/",
+    "https://archiveos.org/rivendell/"
 ];
 
 var redhatlinks = [
@@ -344,7 +377,10 @@ var EOLredhatlinks = [
     "https://archiveos.org/linux-xp/",
     "https://archiveos.org/yellowdog/",
     "http://berry.osdn.jp/",
-    'https://vinelinux.org/'
+    'https://vinelinux.org/',
+    "https://archiveos.org/asplinux/",
+    "https://archiveos.org/tao/",
+    "https://archiveos.org/startcom/"
 ];
 
 var suselinks = [
@@ -353,8 +389,11 @@ var suselinks = [
 ];
 
 var EOLsuselinks = [
-
-]; //please help me find EOL suse links
+    "https://archiveos.org/united/",
+    'https://archiveos.org/karamad/',
+    "http://urix.us/",
+    "https://archiveos.org/kde-four-live/"
+]; 
 
 var otherlinks =[
     "http://www.lunar-linux.org/",
