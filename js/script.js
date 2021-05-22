@@ -1,5 +1,5 @@
 
-var EOLToggle = 2;
+var EOLToggle = localStorage.getItem("EOLToggle");
 var curr_toggle = 1;
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
 var curr_color;
@@ -13,6 +13,8 @@ var color_list = [
     "#5D9CEC", //darkblue
     "#AC92EC", //purple
     "#EC87C0"]; //pink 
+
+let EOLmode = localStorage.getItem("EOLToggle");
 
 function clicked(){
     switch(curr_toggle){
@@ -369,6 +371,7 @@ function relocateGithub(){
 function TOGGLEEOLON(){
     if (EOLToggle != 1){
         EOLToggle = 1;
+        localStorage.setItem("EOLToggle", 1);
         changeButtonColor();
     }
 }
@@ -376,6 +379,7 @@ function TOGGLEEOLON(){
 function TOGGLEEOLOFF(){
     if (EOLToggle != 2){
         EOLToggle = 2;
+        localStorage.setItem("EOLToggle", 2);
         changeButtonColor();
     }
 }
@@ -383,6 +387,7 @@ function TOGGLEEOLOFF(){
 function TOGGLEEOLONLY(){
     if (EOLToggle != 3){
         EOLToggle = 3;
+        localStorage.setItem("EOLToggle", 3);
         changeButtonColor();
     }
 }
