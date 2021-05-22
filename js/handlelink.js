@@ -124,7 +124,9 @@ var links = [
     "https://tos.odex.be/",
      "https://thinstation.github.io/thinstation/",
     "https://spi.dod.mil/lipose.htm", //not only is this distro having issues with security for it's website, the funding ended. Might move to EOL so I would have to keep an eye on them
-    "https://sourceforge.net/projects/rebeccablackos/" //Rebecca Black operating system 
+    "https://sourceforge.net/projects/rebeccablackos/", //Rebecca Black operating system 
+    "https://caixamagica.pt/en/linux-cm",
+    "https://easynas.org/"
 ];
 
 var EOLlinks = [
@@ -198,7 +200,9 @@ var EOLlinks = [
     "https://archiveos.org/phaeronix/",
     "https://archiveos.org/bitdefender/",
     "https://archiveos.org/muriqui/",
-    "https://archiveos.org/kde-four-live/"
+    "https://archiveos.org/kde-four-live/",
+    "https://www.stresslinux.org/sl/",
+    "https://archiveos.org/astaro/"
 ];
 
 
@@ -383,16 +387,19 @@ var EOLredhatlinks = [
     "https://archiveos.org/startcom/"
 ];
 
-var suselinks = [
+var suselinks = [ //there aren't a lot of suse unfortunetly 
     "https://www.opensuse.org/",
-    "https://geckolinux.github.io/"
+    "https://geckolinux.github.io/",
+    "https://easynas.org/"
 ];
 
 var EOLsuselinks = [
     "https://archiveos.org/united/",
     'https://archiveos.org/karamad/',
     "http://urix.us/",
-    "https://archiveos.org/kde-four-live/"
+    "https://archiveos.org/kde-four-live/",
+    "https://www.stresslinux.org/sl/",
+    "https://archiveos.org/astaro/"
 ]; 
 
 var otherlinks =[
