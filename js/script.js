@@ -1,6 +1,10 @@
 
+if (localStorage.getItem("EOLToggle") === null){
+    localStorage.setItem("EOLToggle", 2);
+}
 var EOLToggle = localStorage.getItem("EOLToggle");
 var curr_toggle = 1;
+
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
 var curr_color;
 var color_list = [
@@ -167,10 +171,9 @@ function clicked(){
 
 function changeButtonColor(){
     var color = Math.floor((Math.random() * 9) + 0);
-    //added this function so no identical colors will be there 
-    //everytime you load new random color
     if (color_list[color] == curr_color){
         changeButtonColor();
+        //added this function so no identical colors will be there everytime you load new random color
     }
     else{
         if (curr_toggle != 1){
@@ -371,7 +374,6 @@ function relocateGithub(){
 function TOGGLEEOLON(){
     if (EOLToggle != 1){
         EOLToggle = 1;
-        localStorage.setItem("EOLToggle", 1);
         changeButtonColor();
     }
 }
@@ -379,7 +381,6 @@ function TOGGLEEOLON(){
 function TOGGLEEOLOFF(){
     if (EOLToggle != 2){
         EOLToggle = 2;
-        localStorage.setItem("EOLToggle", 2);
         changeButtonColor();
     }
 }
@@ -387,7 +388,6 @@ function TOGGLEEOLOFF(){
 function TOGGLEEOLONLY(){
     if (EOLToggle != 3){
         EOLToggle = 3;
-        localStorage.setItem("EOLToggle", 3);
         changeButtonColor();
     }
 }
