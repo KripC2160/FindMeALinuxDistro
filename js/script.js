@@ -373,21 +373,21 @@ function relocateGithub(){
 
 function TOGGLEEOLON(){
     if (EOLToggle != 1){
-        EOLToggle = 1;
+        localStorage.setItem("EOLToggle", 1);
         changeButtonColor();
     }
 }
 
 function TOGGLEEOLOFF(){
     if (EOLToggle != 2){
-        EOLToggle = 2;
+        localStorage.getItem("EOLToggle", 2);
         changeButtonColor();
     }
 }
 
 function TOGGLEEOLONLY(){
     if (EOLToggle != 3){
-        EOLToggle = 3;
+        localStorage.getItem("EOLToggle", 3);
         changeButtonColor();
     }
 }
