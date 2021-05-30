@@ -1,7 +1,15 @@
 
+
+// looks bad, but I still don't know the true solution to localstorage issue so here we go
 if (localStorage.getItem("EOLToggle") === null){
     localStorage.setItem("EOLToggle", 2);
 }
+
+if (localStorage.getItem("EOLToggle") == 1 && localStorage.getItem("EOLToggle") == 2 && localStorage.getItem("EOLToggle") == 3){
+    localStorage.setItem("EOLToggle", 2);
+}
+// variables below 
+
 var EOLToggle = localStorage.getItem("EOLToggle");
 var curr_toggle = 1;
 
