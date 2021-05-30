@@ -6,7 +6,7 @@ if (localStorage.getItem("EOLToggle") === null){
     localStorage.setItem("EOLToggle", 2);
 }
 
-if (localStorage.getItem("EOLToggle") == 1 && localStorage.getItem("EOLToggle") == 2 && localStorage.getItem("EOLToggle") == 3){
+if (localStorage.getItem("EOLToggle") == 2){
     localStorage.setItem("EOLToggle", 2);
 }
 // variables below 
