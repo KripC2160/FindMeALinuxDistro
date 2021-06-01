@@ -148,7 +148,7 @@ footer{
     bottom: 150px;
     background: #2D2D2D;
     height: 50px;
-    width: 660px;
+    width: 480px;
     border-radius: 5px;
 }
 
@@ -366,7 +366,7 @@ hr{
     margin: 0 auto;
     height: 35px;
     width: 50px;
-    left: 545px;
+    left: 5px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -383,7 +383,7 @@ hr{
     margin: 0 auto;
     height: 35px;
     width: 50px;
-    left: 485px;
+    left: 65px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -400,8 +400,60 @@ hr{
     margin: 0 auto;
     height: 35px;
     width: 50px;
-    left: 605px;
+    left: 125px;
     border-radius: 5px;
     border: none;
     cursor: pointer;   
+}
+
+.EOLsettings{
+    position: relative;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    bottom: 130px;
+    background: #2D2D2D;
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.EOLsettings .tip{
+    font-family: "Varela Round";
+    font-size: 12px;
+    visibility: hidden;
+    width: 200px;
+    background-color: RGBA(50, 50, 50, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    border: 5px RGBA(50, 50, 50, 0.9);
+    position: absolute;
+    z-index: 1;
+    bottom: -120%;
+    left: 30%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.EOLsettings .tip ::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.EOLsettings:hover .tip {
+    visibility: visible;
+    opacity: 1;
 }
