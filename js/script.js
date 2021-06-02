@@ -9,8 +9,15 @@ if (localStorage.getItem("EOLToggle") === null){
 if (localStorage.getItem("EOLToggle") == 2){
     localStorage.setItem("EOLToggle", 2);
 }
+
+if (localStorage.getItem("dmToggle") != false && localStorage.getItem("dmToggle") ){
+    localStorage.setItem("dmToggle", false);
+}
+
 // variables below 
+var r = document.querySelector(":root");
 var EOLToggle = localStorage.getItem("EOLToggle");
+var dmToggle = localStorage.getItem("dmToggle");
 var curr_toggle = 1;
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
 var curr_color;
@@ -281,7 +288,12 @@ function changeButtonColor(){
                     document.getElementById("EOLoff").style.backgroundColor = "#FFF";
                     document.getElementById("EOLonly").style.backgroundColor = "#FFF";
                     document.getElementById("random-button").style.backgroundColor= "#FFF";
-                    document.getElementById("BigTitle").style.color = "#FFF";
+                    if (dmToggle == false){
+                        document.getElementById("BigTitle").style.color = "#FFF";
+                    }
+                    else if (dmToggle == true){
+                        document.getElementById("BigTitle").style.color = "#3D3D3D";
+                    }
                     document.getElementById("FMALDOTHER").style.backgroundColor = "#F5F7FA";
                     document.getElementById("FMALDOTHER").style.color = "#3D3D3D";
                     document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
@@ -459,4 +471,22 @@ function TOGGLEOTHER(){
         curr_toggle = 8;
         changeButtonColor();   
     }
+}
+
+function dmchange(){
+    if (dmToggle == false){
+        dmToggle.setItem("dmToggle", true);
+        document.getElementById('random-button').style.borderColor = "#4C4C4C";
+        r.style.setProperty('--main-color', 'F0F0F0');
+        r.style.setProperty('--main-text-color', '#1C1C1C');
+        r.style.setProperty('--main-background', "#D4D4D4");
+    }
+    else if(dmToggle == true){
+        dmToggle.setItem("dmToggle", false);
+        document.getElementById('random-button').style.borderColor = "#FFFFFF";
+        r.style.setProperty('--main-color', '#1C1C1C');
+        r.style.setProperty('--main-text-color', 'lightgrey');
+        r.style.setProperty('--main-background', "#2D2D2D");
+    }
+    changeButtonColor();
 }
