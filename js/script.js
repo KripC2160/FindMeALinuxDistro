@@ -10,8 +10,10 @@ if (localStorage.getItem("EOLToggle") == 2){
     localStorage.setItem("EOLToggle", 2);
 }
 // variables below 
+var r = document.querySelector(":root");
 var EOLToggle = localStorage.getItem("EOLToggle");
 var curr_toggle = 1;
+var theme = localStorage.getItem('dmToggle');
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
 var curr_color;
 var color_list = [
@@ -281,7 +283,12 @@ function changeButtonColor(){
                     document.getElementById("EOLoff").style.backgroundColor = "#FFF";
                     document.getElementById("EOLonly").style.backgroundColor = "#FFF";
                     document.getElementById("random-button").style.backgroundColor= "#FFF";
-                    document.getElementById("BigTitle").style.color = "#FFF";
+                    if (localStorage.dmToggle == 'light'){
+                        document.getElementById("BigTitle").style.color = "white";
+                    }
+                    else if (localStorage.dmToggle == 'dark'){
+                        document.getElementById("BigTitle").style.color = "#3D3D3D";
+                    }
                     document.getElementById("FMALDOTHER").style.backgroundColor = "#F5F7FA";
                     document.getElementById("FMALDOTHER").style.color = "#3D3D3D";
                     document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
@@ -366,6 +373,21 @@ function changeButtonColor(){
         document.getElementById("EOLon").style.color = "white";
         document.getElementById("EOLoff").style.color = "white";
         document.getElementById("FMALDOTHER").style.color = "white";
+    }
+
+    if(localStorage.dmToggle == 'dark'){
+        document.getElementById('random-button').style.borderColor = "#4C4C4C";
+        r.style.setProperty('--main-color', 'F0F0F0');
+        r.style.setProperty('--main-text-color', '#1C1C1C');
+        r.style.setProperty('--main-background', "#D4D4D4");
+        r.style.setProperty('--main-bigtitle', 'white');
+    }
+    else{
+        document.getElementById('random-button').style.borderColor = "#FFFFFF";
+        r.style.setProperty('--main-color', '#1C1C1C');
+        r.style.setProperty('--main-text-color', 'lightgrey');
+        r.style.setProperty('--main-background', "#2D2D2D");
+        r.style.setProperty('--main-bigtitle', '#1C1C1C');
     }
 }
 
@@ -459,4 +481,14 @@ function TOGGLEOTHER(){
         curr_toggle = 8;
         changeButtonColor();   
     }
+}
+
+function dmchange(){
+    if (localStorage.dmToggle == 'dark'){
+        localStorage.setItem("dmToggle", 'light');
+    }
+    else if (localStorage.dmToggle == 'light'){
+        localStorage.setItem("dmToggle", 'dark');
+    }
+    changeButtonColor();
 }

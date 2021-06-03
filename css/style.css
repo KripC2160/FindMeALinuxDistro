@@ -2,8 +2,15 @@ html{
     width: 100vw
 }
 
+:root{
+    --main-color: #1C1C1C;
+    --main-text-color: lightgrey;
+    --main-background: #2D2D2D;
+    --main-bigtitle: white;
+}
+
 body{
-    background-color: #1C1C1C;
+    background-color: var(--main-color);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
@@ -85,7 +92,7 @@ footer{
     outline: none;
     background: none;
     border:none;
-    color: lightgrey;
+    color: var(--main-text-color);
     font-size: 15px;
     cursor: pointer;
     cursor:pointer;
@@ -113,7 +120,7 @@ footer{
 
 .creditsanddate{
     font-family: 'Roboto';    
-    color: grey;
+    color: var(--main-text-color);
     font-size: 15px;
     position: relative;
     top: 0px;
@@ -146,7 +153,7 @@ footer{
     justify-content: center;
     align-items: center;
     bottom: 150px;
-    background: #2D2D2D;
+    background: var(--main-background);
     height: 50px;
     width: 480px;
     border-radius: 5px;
@@ -414,7 +421,7 @@ hr{
     justify-content: center;
     align-items: center;
     bottom: 130px;
-    background: #2D2D2D;
+    background: var(--main-background);
     height: 50px;
     width: 180px;
     border-radius: 5px;
@@ -456,4 +463,30 @@ hr{
 .EOLsettings:hover .tip {
     visibility: visible;
     opacity: 1;
+}
+
+#dmbutton{
+    background-color: none;
+    background:none;
+    outline: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 2%;
+    display: grid;
+    justify-content: center;
+    filter: brightness(100%);
+    transition: filter .1s;
+    cursor: pointer;
+}
+
+#dmbutton:hover{
+    filter: brightness(150%);
+}
+
+#dmimg{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
