@@ -13,6 +13,7 @@ if (localStorage.getItem("EOLToggle") == 2){
 var r = document.querySelector(":root");
 var EOLToggle = localStorage.getItem("EOLToggle");
 var curr_toggle = 1;
+var theme = localStorage.getItem('dmToggle');
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
 var curr_color;
 var color_list = [
@@ -282,10 +283,10 @@ function changeButtonColor(){
                     document.getElementById("EOLoff").style.backgroundColor = "#FFF";
                     document.getElementById("EOLonly").style.backgroundColor = "#FFF";
                     document.getElementById("random-button").style.backgroundColor= "#FFF";
-                    if (dmToggle == false){
-                        document.getElementById("BigTitle").style.color = "#FFF";
+                    if (localStorage.dmToggle == 'light'){
+                        document.getElementById("BigTitle").style.color = "white";
                     }
-                    else if (dmToggle == true){
+                    else if (localStorage.dmToggle == 'dark'){
                         document.getElementById("BigTitle").style.color = "#3D3D3D";
                     }
                     document.getElementById("FMALDOTHER").style.backgroundColor = "#F5F7FA";
@@ -374,17 +375,19 @@ function changeButtonColor(){
         document.getElementById("FMALDOTHER").style.color = "white";
     }
 
-    if(localStorage.dmToggle == false){
+    if(localStorage.dmToggle == 'dark'){
         document.getElementById('random-button').style.borderColor = "#4C4C4C";
         r.style.setProperty('--main-color', 'F0F0F0');
         r.style.setProperty('--main-text-color', '#1C1C1C');
         r.style.setProperty('--main-background', "#D4D4D4");
+        r.style.setProperty('--main-bigtitle', 'white');
     }
     else{
         document.getElementById('random-button').style.borderColor = "#FFFFFF";
         r.style.setProperty('--main-color', '#1C1C1C');
         r.style.setProperty('--main-text-color', 'lightgrey');
         r.style.setProperty('--main-background', "#2D2D2D");
+        r.style.setProperty('--main-bigtitle', '#1C1C1C');
     }
 }
 
@@ -481,15 +484,11 @@ function TOGGLEOTHER(){
 }
 
 function dmchange(){
-    if (localStorage.dmToggle == false){
-        dmToggle.setItem("dmToggle", true);
+    if (localStorage.dmToggle == 'dark'){
+        localStorage.setItem("dmToggle", 'light');
     }
-    else if (localStorage.dmToggle == true){
-        dmToggle.setItem("dmToggle", false);
+    else if (localStorage.dmToggle == 'light'){
+        localStorage.setItem("dmToggle", 'dark');
     }
-    else{
-        localStorage.setItem("dmToggle", false);
-    }
-    console.log(localStorage.dmToggle);
     changeButtonColor();
 }
