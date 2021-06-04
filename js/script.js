@@ -9,6 +9,15 @@ if (localStorage.getItem("EOLToggle") === null){
 if (localStorage.getItem("EOLToggle") == 2){
     localStorage.setItem("EOLToggle", 2);
 }
+
+if (localStorage.getItem("dmToggle") === null){
+    localStorage.setItem("dmToggle", 'dark');
+}
+
+if (localStorage.dmToggle === null){
+    localStorage.setItem("dmToggle", 'dark');
+}
+
 // variables below 
 var r = document.querySelector(":root");
 var EOLToggle = localStorage.getItem("EOLToggle");
