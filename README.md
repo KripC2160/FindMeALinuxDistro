@@ -6,4 +6,8 @@
 These distributions might be ones you know and use, remixes of distributions, country exclusive, and so much more. FMALD is still needs more distributions so if you have any distribution you want to be in the website, make sure to put them in the [issues](https://github.com/KripC2160/findmealinuxdistro/issues). The Linux distributions however still are focused on ones that run on computer (so no server or mobile Linux). 
 Feedbacks are welcome :D 
 
+![Screen Shot 2021-06-04 at 13 34 32](https://user-images.githubusercontent.com/65854891/120747174-8a5c9e00-c53b-11eb-9763-acbe8c7e3dd8.png)
+
+![Screen Shot 2021-06-04 at 13 34 00](https://user-images.githubusercontent.com/65854891/120747180-8df02500-c53b-11eb-9575-27961efa7da1.png)
+
 Development progress can be seen on Trello here: https://trello.com/b/ZRRj5Raf/fmald-dev-list
