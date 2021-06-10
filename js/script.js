@@ -44,8 +44,6 @@ var color_list = [
     "#AC92EC", //purple
     "#EC87C0"]; //pink 
 
-let EOLmode = localStorage.getItem("EOLToggle");
-
 function clicked(){
     if (localStorage.distroToggle == 1){
         if (EOLToggle == 1){
