@@ -201,6 +201,16 @@ function changeButtonColor(){
         changeButtonColor();
     }
     else{
+
+        document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
+        document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
+        document.getElementById("FMALDDEBIAN").style.backgroundColor = "#3D3D3D";
+        document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
+        document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
+        document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
+        document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
+        document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
+
         if (localStorage.distroToggle == 1){
             document.getElementById("EOLon").style.backgroundColor = color_list[color];
             document.getElementById("EOLoff").style.backgroundColor = color_list[color];
@@ -208,13 +218,6 @@ function changeButtonColor(){
             document.getElementById("random-button").style.backgroundColor = color_list[color];
             document.getElementById("BigTitle").style.color = color_list[color];
             document.getElementById("FMALDALL").style.backgroundColor = color_list[color];
-            document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDDEBIAN").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";    
         }
         if (localStorage.distroToggle == 2){
             document.getElementById("EOLon").style.backgroundColor = color_list[1];
@@ -223,13 +226,6 @@ function changeButtonColor(){
             document.getElementById("EOLonly").style.backgroundColor = color_list[1];
             document.getElementById("BigTitle").style.color = color_list[1];
             document.getElementById("FMALDDEBIAN").style.backgroundColor = "#FC6E51";
-            document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
         }
         if (localStorage.distroToggle == 3){
             document.getElementById("EOLon").style.backgroundColor = color_list[5];
@@ -238,13 +234,6 @@ function changeButtonColor(){
             document.getElementById("random-button").style.backgroundColor=color_list[5];
             document.getElementById("BigTitle").style.color = color_list[5];
             document.getElementById("FMALDARCH").style.backgroundColor = color_list[5];
-            document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDDEBIAN").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
         }
         if (localStorage.distroToggle == 4){
             document.getElementById("EOLon").style.backgroundColor = color_list[7];
@@ -253,13 +242,6 @@ function changeButtonColor(){
             document.getElementById("random-button").style.backgroundColor=color_list[7];
             document.getElementById("BigTitle").style.color = color_list[7];
             document.getElementById("FMALDGENTOO").style.backgroundColor = "#AC92EC";
-            document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDDEBIAN").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
         }
         if (localStorage.distroToggle == 5){
             document.getElementById("EOLon").style.backgroundColor = color_list[0];
@@ -268,13 +250,6 @@ function changeButtonColor(){
             document.getElementById("random-button").style.backgroundColor=color_list[0];
             document.getElementById("BigTitle").style.color = color_list[0];
             document.getElementById("FMALDREDHAT").style.backgroundColor = "#ED5565";
-            document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDDEBIAN").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";   
         }
         if (localStorage.distroToggle == 6){
             document.getElementById("EOLon").style.backgroundColor = color_list[3];
@@ -283,13 +258,6 @@ function changeButtonColor(){
             document.getElementById("random-button").style.backgroundColor=color_list[3];
             document.getElementById("BigTitle").style.color = color_list[3];
             document.getElementById("FMALDSUSE").style.backgroundColor = "#A0D468";
-            document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDDEBIAN").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
         }
         if (localStorage.distroToggle == 7){
             document.getElementById("EOLon").style.backgroundColor = color_list[6];
@@ -298,13 +266,6 @@ function changeButtonColor(){
             document.getElementById("random-button").style.backgroundColor=color_list[6];
             document.getElementById("BigTitle").style.color = color_list[6];
             document.getElementById("FMALDSLACK").style.backgroundColor = "#5D9CEC";
-            document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDDEBIAN").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
         }
         if (localStorage.distroToggle == 8){
             document.getElementById("EOLon").style.backgroundColor = "#FFF";
@@ -319,13 +280,6 @@ function changeButtonColor(){
             }
             document.getElementById("FMALDOTHER").style.backgroundColor = "#F5F7FA";
             document.getElementById("FMALDOTHER").style.color = "#3D3D3D";
-            document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDDEBIAN").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
-            document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
         }
     }
     
