@@ -193,8 +193,8 @@ function clicked(){
 
 function changeButtonColor(){
     var color = Math.floor((Math.random() * 9) + 0);
-    //added this function so no identical colors will be there 
-    //everytime you load new random color
+    /*added this function so no identical colors will be there 
+    everytime you load new random color*/
     if (color_list[color] == curr_color){
         changeButtonColor();
     }
@@ -318,20 +318,6 @@ function changeButtonColor(){
             document.getElementById("EOLoff").style.backgroundColor = "#3D3D3D";
         }
         curr_color = color_list[color];
-    
-
-    if (localStorage.distroToggle == 9){
-        document.getElementById("EOLon").style.disabled = true;
-        document.getElementById("EOLoff").style.disabled = true;
-        document.getElementById("EOLon").style.opacity = "30%";
-        document.getElementById("EOLoff").style.opacity = "30%";
-    }
-    else{
-        document.getElementById("EOLon").style.disabled = false;
-        document.getElementById("EOLoff").style.disabled = false;
-        document.getElementById("EOLon").style.opacity = "100%";
-        document.getElementById("EOLoff").style.opacity = "100%";
-    }
 
     if (localStorage.distroToggle != 8){
         document.getElementById("EOLon").style.color = "white";
