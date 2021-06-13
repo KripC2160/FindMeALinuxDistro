@@ -33,6 +33,7 @@ var EOLToggle = localStorage.getItem("EOLToggle");
 
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
 var curr_color;
+var prev_color;
 var color_list = [
     "#ED5565", //red
     "#FC6E51", //orange
@@ -195,7 +196,7 @@ function changeButtonColor(){
     var color = Math.floor((Math.random() * 9) + 0);
     /*added this function so no identical colors will be there 
     everytime you load new random color*/
-    if (color_list[color] == curr_color){
+    if (color_list[color] == curr_color || color_list[color] == prev_color){
         changeButtonColor();
     }
     else{
@@ -317,6 +318,7 @@ function changeButtonColor(){
             document.getElementById("EOLon").style.backgroundColor = "#3D3D3D";
             document.getElementById("EOLoff").style.backgroundColor = "#3D3D3D";
         }
+        prev_color = curr_color;
         curr_color = color_list[color];
 
     if (localStorage.distroToggle != 8){
