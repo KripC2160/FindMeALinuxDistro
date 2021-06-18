@@ -11,11 +11,11 @@ if (localStorage.getItem("EOLToggle") == 2){
 }
 
 if (localStorage.getItem("dmToggle") === null){
-    localStorage.setItem("dmToggle", 'dark');
+    localStorage.setItem("dmToggle", 'light');
 }
 
 if (localStorage.dmToggle === null){
-    localStorage.setItem("dmToggle", 'dark');
+    localStorage.setItem("dmToggle", 'light');
 }
 
 if (localStorage.getItem("distroToggle") === null){
