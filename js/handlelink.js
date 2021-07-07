@@ -128,7 +128,8 @@ var links = [
     "https://caixamagica.pt/en/linux-cm",
     "https://easynas.org/",
     "https://arcolinux.com/",
-    "https://arcolinuxb.com/" //this linux has two different websites
+    "https://arcolinuxb.com/", //this linux has two different websites
+    "https://regolith-linux.org/"
 ];
 
 var EOLlinks = [
@@ -263,7 +264,8 @@ var debainlinks = [
     "https://voyagerlive.org/",
     "https://www.bunsenlabs.org/",
     "https://lxle.net/",
-    "https://sourceforge.net/projects/rebeccablackos/" //Rebecca Black operating system 
+    "https://sourceforge.net/projects/rebeccablackos/", //Rebecca Black operating system 
+    "https://regolith-linux.org/"
 ];
 
 var EOLdebianlinks = [
