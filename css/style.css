@@ -25,10 +25,12 @@ body{
     src: url("../font/Roboto/Roboto-Thin.ttf");
 }
 
+/* useless for now
 @media screen and (min-width: 1600px){
     @viewport{
     }
 }
+*/
 
 #random-button{
     font-family: 'Varela Round';

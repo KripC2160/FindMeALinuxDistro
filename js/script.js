@@ -35,15 +35,9 @@ var EOLToggle = localStorage.getItem("EOLToggle");
 var curr_color;
 var prev_color;
 var color_list = [
-    "#ED5565", //red
-    "#FC6E51", //orange
-    "#FFCE54", //yellow
-    "#A0D468", //green
-    "#48CFAD", //aqua
-    "#4FC1E9", // blue
-    "#5D9CEC", //darkblue
-    "#AC92EC", //purple
-    "#EC87C0"]; //pink 
+    "#ED5565", "#FC6E51", "#FFCE54", //Red, Orange, Green
+    "#A0D468", "#48CFAD", "#4FC1E9", //Green, Aqua, Blue
+    "#5D9CEC", "#AC92EC", "#EC87C0"];//Dark Blue, Purple, Pink 
 
 function clicked(){
     if (localStorage.distroToggle == 1){
@@ -218,7 +212,7 @@ function changeButtonColor(){
             document.getElementById("BigTitle").style.color = color_list[color];
             document.getElementById("FMALDALL").style.backgroundColor = color_list[color];
         }
-        if (localStorage.distroToggle == 2){
+        else if (localStorage.distroToggle == 2){
             document.getElementById("EOLon").style.backgroundColor = color_list[1];
             document.getElementById("EOLoff").style.backgroundColor = color_list[1];
             document.getElementById("random-button").style.backgroundColor=color_list[1];
@@ -226,7 +220,7 @@ function changeButtonColor(){
             document.getElementById("BigTitle").style.color = color_list[1];
             document.getElementById("FMALDDEBIAN").style.backgroundColor = "#FC6E51";
         }
-        if (localStorage.distroToggle == 3){
+        else if (localStorage.distroToggle == 3){
             document.getElementById("EOLon").style.backgroundColor = color_list[5];
             document.getElementById("EOLoff").style.backgroundColor = color_list[5];
             document.getElementById("EOLonly").style.backgroundColor = color_list[5];
@@ -234,7 +228,7 @@ function changeButtonColor(){
             document.getElementById("BigTitle").style.color = color_list[5];
             document.getElementById("FMALDARCH").style.backgroundColor = color_list[5];
         }
-        if (localStorage.distroToggle == 4){
+        else if (localStorage.distroToggle == 4){
             document.getElementById("EOLon").style.backgroundColor = color_list[7];
             document.getElementById("EOLoff").style.backgroundColor = color_list[7];
             document.getElementById("EOLonly").style.backgroundColor = color_list[7];
@@ -242,7 +236,7 @@ function changeButtonColor(){
             document.getElementById("BigTitle").style.color = color_list[7];
             document.getElementById("FMALDGENTOO").style.backgroundColor = "#AC92EC";
         }
-        if (localStorage.distroToggle == 5){
+        else if (localStorage.distroToggle == 5){
             document.getElementById("EOLon").style.backgroundColor = color_list[0];
             document.getElementById("EOLoff").style.backgroundColor = color_list[0];
             document.getElementById("EOLonly").style.backgroundColor = color_list[0];
@@ -250,7 +244,7 @@ function changeButtonColor(){
             document.getElementById("BigTitle").style.color = color_list[0];
             document.getElementById("FMALDREDHAT").style.backgroundColor = "#ED5565";
         }
-        if (localStorage.distroToggle == 6){
+        else if (localStorage.distroToggle == 6){
             document.getElementById("EOLon").style.backgroundColor = color_list[3];
             document.getElementById("EOLoff").style.backgroundColor = color_list[3];
             document.getElementById("EOLonly").style.backgroundColor = color_list[3];
@@ -258,7 +252,7 @@ function changeButtonColor(){
             document.getElementById("BigTitle").style.color = color_list[3];
             document.getElementById("FMALDSUSE").style.backgroundColor = "#A0D468";
         }
-        if (localStorage.distroToggle == 7){
+        else if (localStorage.distroToggle == 7){
             document.getElementById("EOLon").style.backgroundColor = color_list[6];
             document.getElementById("EOLoff").style.backgroundColor = color_list[6];
             document.getElementById("EOLonly").style.backgroundColor = color_list[6];
@@ -266,7 +260,7 @@ function changeButtonColor(){
             document.getElementById("BigTitle").style.color = color_list[6];
             document.getElementById("FMALDSLACK").style.backgroundColor = "#5D9CEC";
         }
-        if (localStorage.distroToggle == 8){
+        else if (localStorage.distroToggle == 8){
             document.getElementById("EOLon").style.backgroundColor = "#FFF";
             document.getElementById("EOLoff").style.backgroundColor = "#FFF";
             document.getElementById("EOLonly").style.backgroundColor = "#FFF";

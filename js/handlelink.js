@@ -126,7 +126,9 @@ var links = [
     "https://spi.dod.mil/lipose.htm", //not only is this distro having issues with security for it's website, the funding ended. Might move to EOL so I would have to keep an eye on them
     "https://sourceforge.net/projects/rebeccablackos/", //Rebecca Black operating system 
     "https://caixamagica.pt/en/linux-cm",
-    "https://easynas.org/"
+    "https://easynas.org/",
+    "https://arcolinux.com/",
+    "https://arcolinuxb.com/" //this linux has two different websites
 ];
 
 var EOLlinks = [
@@ -315,7 +317,9 @@ var archlinks = [
     "https://instantos.io",
     "https://maboxlinux.org/",
     "https://garudalinux.org/",
-    "https://tos.odex.be/"
+    "https://tos.odex.be/",
+    "https://arcolinux.com/",
+    "https://arcolinuxb.com/"
 ];
 
 var EOLarchlinks = [
