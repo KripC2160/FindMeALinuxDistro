@@ -205,7 +205,8 @@ var EOLlinks = [
     "https://archiveos.org/muriqui/",
     "https://archiveos.org/kde-four-live/",
     "https://www.stresslinux.org/sl/",
-    "https://archiveos.org/astaro/"
+    "https://archiveos.org/astaro/",
+    "https://archiveos.org/antergos/"
 ];
 
 
@@ -329,6 +330,7 @@ var EOLarchlinks = [
     "https://archiveos.org/archeos/",
     "https://archiveos.org/architect/",
     "https://archiveos.org/archmerge/",
+    "https://archiveos.org/antergos/"
 ];
 
 var gentoolinks = [
