@@ -129,7 +129,8 @@ var links = [
     "https://easynas.org/",
     "https://arcolinux.com/",
     "https://arcolinuxb.com/", //this linux has two different websites
-    "https://regolith-linux.org/"
+    "https://regolith-linux.org/",
+    "https://silverblue.fedoraproject.org/"
 ];
 
 var EOLlinks = [
@@ -381,7 +382,8 @@ var redhatlinks = [
     "https://www.mageia.org/en/",
     "https://www.rosalinux.ru/en/home-2/",
     "https://www.pclinuxos.com/",
-    "https://en.altlinux.org/Downloads"
+    "https://en.altlinux.org/Downloads",
+    "https://silverblue.fedoraproject.org/"
 ];
 
 var EOLredhatlinks = [
