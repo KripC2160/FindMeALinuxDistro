@@ -130,7 +130,8 @@ var links = [
     "https://arcolinux.com/",
     "https://arcolinuxb.com/", //this linux has two different websites
     "https://regolith-linux.org/",
-    "https://silverblue.fedoraproject.org/"
+    "https://silverblue.fedoraproject.org/",
+    "https://www.jostroos.ml/amogos/" //ඞ sus
 ];
 
 var EOLlinks = [
@@ -267,7 +268,8 @@ var debainlinks = [
     "https://www.bunsenlabs.org/",
     "https://lxle.net/",
     "https://sourceforge.net/projects/rebeccablackos/", //Rebecca Black operating system 
-    "https://regolith-linux.org/"
+    "https://regolith-linux.org/",
+    "https://www.jostroos.ml/amogos/" //impasta 
 ];
 
 var EOLdebianlinks = [
