@@ -41,7 +41,6 @@ var links = [
     "https://www.backslashlinux.com/",
     "https://zorinos.com/",
     "https://galliumos.org/",
-    "https://www.jolicloud.com/jolios/",
     "https://elementary.io/",
     "https://ubuntuunity.org/",
     "https://emmabuntus.org/category/english/",
@@ -131,7 +130,8 @@ var links = [
     "https://arcolinuxb.com/", //this linux has two different websites
     "https://regolith-linux.org/",
     "https://silverblue.fedoraproject.org/",
-    "https://www.jostroos.ml/amogos/" //ඞ sus
+    "https://www.jostroos.ml/amogos/", //ඞ sus
+    "https://almalinux.org"
 ];
 
 var EOLlinks = [
@@ -208,7 +208,8 @@ var EOLlinks = [
     "https://archiveos.org/kde-four-live/",
     "https://www.stresslinux.org/sl/",
     "https://archiveos.org/astaro/",
-    "https://archiveos.org/antergos/"
+    "https://archiveos.org/antergos/",
+    "https://www.jolicloud.com/jolios/",
 ];
 
 
@@ -235,7 +236,6 @@ var debainlinks = [
     "https://www.backslashlinux.com/",
     "https://zorinos.com/",
     "https://galliumos.org/",
-    "https://www.jolicloud.com/jolios/",
     "https://elementary.io/",
     "https://ubuntuunity.org/",
     "https://neon.kde.org/",
@@ -304,7 +304,8 @@ var EOLdebianlinks = [
     "https://www.caine-live.net/",
     "https://archiveos.org/caixa-magica/",
     "https://archiveos.org/delix/",
-    "https://archiveos.org/muriqui/"
+    "https://archiveos.org/muriqui/",
+    "https://www.jolicloud.com/jolios/",
 ];
 
 var archlinks = [
@@ -385,7 +386,8 @@ var redhatlinks = [
     "https://www.rosalinux.ru/en/home-2/",
     "https://www.pclinuxos.com/",
     "https://en.altlinux.org/Downloads",
-    "https://silverblue.fedoraproject.org/"
+    "https://silverblue.fedoraproject.org/",
+    "https://almalinux.org"
 ];
 
 var EOLredhatlinks = [

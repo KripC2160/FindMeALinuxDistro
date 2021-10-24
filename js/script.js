@@ -32,158 +32,41 @@ var EOLToggle = localStorage.getItem("EOLToggle");
 //var curr_toggle = localStorage.getItem("distroToggle");
 
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
-var curr_color;
-var prev_color;
+var curr_color, prev_color;
 var color_list = [
-    "#ED5565", "#FC6E51", "#FFCE54", //Red, Orange, Green
-    "#A0D468", "#48CFAD", "#4FC1E9", //Green, Aqua, Blue
-    "#5D9CEC", "#AC92EC", "#EC87C0"];//Dark Blue, Purple, Pink 
+    "#ED5565", "#FC6E51", "#FFCE54", //Red, Orange, Yellow
+    "#A0D468", "#48CFAD", "#4FC1E9", //Green, Turquoise, Aqua
+    "#5D9CEC", "#AC92EC", "#EC87C0" //Blue, Purple, Pink 
+];
+
+var distro_list = [
+    "TEST", "FMALDALL", "FMALDDEBIAN", "FMALDARCH", "FMALDGENTOO", "FMALDREDHAT", "FMALDSUSE", "FMALDSLACK", "FMALDOTHER"
+];
+
+
 
 function clicked(){
-    if (localStorage.distroToggle == 1){
-        if (EOLToggle == 1){
-            var chosentype = Math.floor((Math.random()*100)+ 1);
-    
-            if (chosentype <= 25){
-                window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
-            }
-            else{
-                window.open(links[Math.floor(Math.random()*links.length)]);
-            }
-        }
-        else if(EOLToggle == 2){
-            window.open(links[Math.floor(Math.random()*links.length)]);
-        }
-        else if(EOLToggle == 3){
-            window.open(EOLlinks[Math.floor(Math.random()*EOLlinks.length)]);
-        }   
-    }
-    if (localStorage.distroToggle == 2){
-        if (EOLToggle == 1){
-            var chosentype = Math.floor((Math.random()*100)+ 1);
-    
-            if (chosentype <= 25){
-                window.open(EOLdebianlinks[Math.floor(Math.random()*EOLdebianlinks.length)]);
-            }
-            else{
-                window.open(debainlinks[Math.floor(Math.random()*debainlinks.length)]);
-            }
-        }
-        else if(EOLToggle == 2){
-            window.open(debainlinks[Math.floor(Math.random()*debainlinks.length)]);
-        }
-        else if(EOLToggle ==3){
-            window.open(EOLdebianlinks[Math.floor(Math.random()*EOLdebianlinks.length)]);
-        }
-    }
-    if (localStorage.distroToggle == 3){
-        if (EOLToggle == 1){
-            var chosentype = Math.floor((Math.random()*100)+ 1);
-    
-            if (chosentype <= 25){
-                window.open(EOLarchlinks[Math.floor(Math.random()*EOLarchlinks.length)]);
-            }
-            else{
-                window.open(archlinks[Math.floor(Math.random()*archlinks.length)]);
-            }
-        }
-        else if(EOLToggle == 2) {
-            window.open(archlinks[Math.floor(Math.random()*archlinks.length)]);
-        }
-        else if (EOLToggle ==3){
-            window.open(EOLarchlinks[Math.floor(Math.random()*EOLarchlinks.length)]);
-        }
-    }
-    if (localStorage.distroToggle ==4){
-        if (EOLToggle == 1){
-            var chosentype = Math.floor((Math.random()*100)+ 1);
-    
-            if (chosentype <= 25){
-                window.open(EOLgentoolinks[Math.floor(Math.random()*EOLgentoolinks.length)]);
-            }
-            else{
-                window.open(gentoolinks[Math.floor(Math.random()*gentoolinks.length)]);
-            }
-        }
-        else if(EOLToggle == 2){
-            window.open(gentoolinks[Math.floor(Math.random()*gentoolinks.length)]);
-        }
-        else if(EOLToggle == 3){
-            window.open(EOLgentoolinks[Math.floor(Math.random()*gentoolinks.length)]);
-        }    
-    }
-    if (localStorage.distroToggle == 5){
-        if (EOLToggle == 1){
-            var chosentype = Math.floor((Math.random()*100)+ 1);
-    
-            if (chosentype <= 25){
-                window.open(EOLredhatlinks[Math.floor(Math.random()*EOLredhatlinks.length)]);
-            }
-            else{
-                window.open(redhatlinks[Math.floor(Math.random()*redhatlinks.length)]);
-            }
-        }
-        else if(EOLToggle == 2){
-            window.open(redhatlinks[Math.floor(Math.random()*redhatlinks.length)]);
-        }
-        else if(EOLToggle == 3){
-            window.open(EOLredhatlinks[Math.floor(Math.random()*EOLredhatlinks.length)]);
-        }
-    }
-    if (localStorage.distroToggle == 6){
-        if (EOLToggle == 1){
-            var chosentype = Math.floor((Math.random()*100)+ 1);
-    
-            if (chosentype <= 25){
-                window.open(EOLsuselinks[Math.floor(Math.random()*EOLsuselinks.length)]);
-            }
-            else{
-                window.open(suselinks[Math.floor(Math.random()*suselinks.length)]);
-            }
-        }
-        else if(EOLToggle == 2){
-            window.open(suselinks[Math.floor(Math.random()*suselinks.length)]);
-        }
-        else if(EOLToggle == 3){
-            window.open(EOLsuselinks[Math.floor(Math.random()*EOLsuselinks.length)]);
-        }
-    }
-    if (localStorage.distroToggle == 7){
-        if (EOLToggle == 1){
-            var chosentype = Math.floor((Math.random()*100)+ 1);
-    
-            if (chosentype <= 25){
-                window.open(EOLslacklinks[Math.floor(Math.random()*EOLslacklinks.length)]);
-            }
-            else{
-                window.open(slacklinks[Math.floor(Math.random()*slacklinks.length)]);
-            }
-        }
-        else if (EOLToggle == 2){
-            window.open(slacklinks[Math.floor(Math.random()*slacklinks.length)]);
-        }
-        else if(EOLToggle == 3){
-            window.open(EOLslacklinks[Math.floor(Math.random()*EOLslacklinks.length)]);
-        }
-    }
-    if (localStorage.distroToggle == 8){
-        if (EOLToggle == 1){
-            var chosentype = Math.floor((Math.random()*100)+ 1);
 
-            if (chosentype <= 25){
-                window.open(EOLotherlinks[Math.floor(Math.random()*EOLotherlinks.length)]);
-            }
-            else{
-                window.open(otherlinks[Math.floor(Math.random()*otherlinks.length)]);
-            }
-        }
-        else if(EOLToggle == 2){
-            window.open(otherlinks[Math.floor(Math.random()*otherlinks.length)]);
-        }
-        else if(EOLToggle ==3){
-            window.open(EOLotherlinks[Math.floor(Math.random()*EOLotherlinks.length)]);
-        }
+    var distrolink_list = [
+        "gap", links, debainlinks, archlinks, gentoolinks, 
+        redhatlinks, suselinks, slacklinks, otherlinks
+    ];
+    
+    var eoldistrolink_list = [
+        "gap", EOLlinks, EOLdebianlinks, EOLarchlinks, EOLgentoolinks, 
+        EOLredhatlinks, EOLsuselinks, EOLslacklinks, EOLotherlinks
+    ];
+
+    if (EOLToggle == 1){
+        var chosentype = Math.floor((Math.random()*100)+ 1);
+        chosentype <= 25 ? window.open(eoldistrolink_list[localStorage.distroToggle][Math.floor(Math.random()*eoldistrolink_list[localStorage.distroToggle].length)]) : window.open(distrolink_list[localStorage.distroToggle][Math.floor(Math.random()*distrolink_list[localStorage.distroToggle].length)])
     }
+    else if(EOLToggle == 2){
+        window.open(distrolink_list[localStorage.distroToggle][Math.floor(Math.random()*distrolink_list[localStorage.distroToggle].length)]);
+    }
+    else if(EOLToggle == 3){
+        window.open(eoldistrolink_list[localStorage.distroToggle][Math.floor(Math.random()*eoldistrolink_list[localStorage.distroToggle].length)]);
+    }    
 }
 
 function changeButtonColor(){
@@ -203,7 +86,7 @@ function changeButtonColor(){
         document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
         document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
         document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
-
+        
         if (localStorage.distroToggle == 1){
             document.getElementById("EOLon").style.backgroundColor = color_list[color];
             document.getElementById("EOLoff").style.backgroundColor = color_list[color];
@@ -212,59 +95,20 @@ function changeButtonColor(){
             document.getElementById("BigTitle").style.color = color_list[color];
             document.getElementById("FMALDALL").style.backgroundColor = color_list[color];
         }
-        else if (localStorage.distroToggle == 2){
-            document.getElementById("EOLon").style.backgroundColor = color_list[1];
-            document.getElementById("EOLoff").style.backgroundColor = color_list[1];
-            document.getElementById("random-button").style.backgroundColor=color_list[1];
-            document.getElementById("EOLonly").style.backgroundColor = color_list[1];
-            document.getElementById("BigTitle").style.color = color_list[1];
-            document.getElementById("FMALDDEBIAN").style.backgroundColor = "#FC6E51";
+        else{
+            document.getElementById("EOLon").style.backgroundColor = color_list[localStorage.distroToggle];
+            document.getElementById("EOLoff").style.backgroundColor = color_list[localStorage.distroToggle];
+            document.getElementById("random-button").style.backgroundColor=color_list[localStorage.distroToggle];
+            document.getElementById("EOLonly").style.backgroundColor = color_list[localStorage.distroToggle];
+            document.getElementById("BigTitle").style.color = color_list[localStorage.distroToggle];
+            document.getElementById(distro_list[localStorage.distroToggle]).style.backgroundColor = color_list[localStorage.distroToggle]; 
         }
-        else if (localStorage.distroToggle == 3){
-            document.getElementById("EOLon").style.backgroundColor = color_list[5];
-            document.getElementById("EOLoff").style.backgroundColor = color_list[5];
-            document.getElementById("EOLonly").style.backgroundColor = color_list[5];
-            document.getElementById("random-button").style.backgroundColor=color_list[5];
-            document.getElementById("BigTitle").style.color = color_list[5];
-            document.getElementById("FMALDARCH").style.backgroundColor = color_list[5];
-        }
-        else if (localStorage.distroToggle == 4){
-            document.getElementById("EOLon").style.backgroundColor = color_list[7];
-            document.getElementById("EOLoff").style.backgroundColor = color_list[7];
-            document.getElementById("EOLonly").style.backgroundColor = color_list[7];
-            document.getElementById("random-button").style.backgroundColor=color_list[7];
-            document.getElementById("BigTitle").style.color = color_list[7];
-            document.getElementById("FMALDGENTOO").style.backgroundColor = "#AC92EC";
-        }
-        else if (localStorage.distroToggle == 5){
-            document.getElementById("EOLon").style.backgroundColor = color_list[0];
-            document.getElementById("EOLoff").style.backgroundColor = color_list[0];
-            document.getElementById("EOLonly").style.backgroundColor = color_list[0];
-            document.getElementById("random-button").style.backgroundColor=color_list[0];
-            document.getElementById("BigTitle").style.color = color_list[0];
-            document.getElementById("FMALDREDHAT").style.backgroundColor = "#ED5565";
-        }
-        else if (localStorage.distroToggle == 6){
-            document.getElementById("EOLon").style.backgroundColor = color_list[3];
-            document.getElementById("EOLoff").style.backgroundColor = color_list[3];
-            document.getElementById("EOLonly").style.backgroundColor = color_list[3];
-            document.getElementById("random-button").style.backgroundColor=color_list[3];
-            document.getElementById("BigTitle").style.color = color_list[3];
-            document.getElementById("FMALDSUSE").style.backgroundColor = "#A0D468";
-        }
-        else if (localStorage.distroToggle == 7){
-            document.getElementById("EOLon").style.backgroundColor = color_list[6];
-            document.getElementById("EOLoff").style.backgroundColor = color_list[6];
-            document.getElementById("EOLonly").style.backgroundColor = color_list[6];
-            document.getElementById("random-button").style.backgroundColor=color_list[6];
-            document.getElementById("BigTitle").style.color = color_list[6];
-            document.getElementById("FMALDSLACK").style.backgroundColor = "#5D9CEC";
-        }
-        else if (localStorage.distroToggle == 8){
-            document.getElementById("EOLon").style.backgroundColor = "#FFF";
-            document.getElementById("EOLoff").style.backgroundColor = "#FFF";
-            document.getElementById("EOLonly").style.backgroundColor = "#FFF";
-            document.getElementById("random-button").style.backgroundColor= "#FFF";
+
+        if (localStorage.distroToggle == 8){
+            document.getElementById("EOLon").style.backgroundColor = "white";
+            document.getElementById("EOLoff").style.backgroundColor = "white";
+            document.getElementById("EOLonly").style.backgroundColor = "white";
+            document.getElementById("random-button").style.backgroundColor= "white";
             if (localStorage.dmToggle == 'light'){
                 document.getElementById("BigTitle").style.color = "white";
             }
@@ -329,7 +173,7 @@ function changeButtonColor(){
         r.style.setProperty('--main-bigtitle', 'white');
     }
     else{
-        document.getElementById('random-button').style.borderColor = "#FFFFFF";
+        document.getElementById('random-button').style.borderColor = "white";
         r.style.setProperty('--main-color', '#1C1C1C');
         r.style.setProperty('--main-text-color', 'lightgrey');
         r.style.setProperty('--main-background', "#2D2D2D");
@@ -343,8 +187,8 @@ function relocateGithubHome(){
 }
 
 function relocateGithub(){
-    var github = "https://github.com/KripC2160/findmealinuxdistro/issues";
-    window.open(github);
+    var issues = "https://github.com/KripC2160/findmealinuxdistro/issues";
+    window.open(issues);
 }
 
 function TOGGLEEOLON(){
@@ -374,59 +218,43 @@ function TOGGLEEOLONLY(){
 //option buttons
 
 function TOGGLEALL(){
-    if (curr_color != 1){
-        localStorage.distroToggle = 1;
-        changeButtonColor();
-    }
+    localStorage.distroToggle = 1;
+    changeButtonColor();
 }
 
 function TOGGLEDEBIAN(){
-    if (localStorage.distroToggle != 2){
-        localStorage.distroToggle = 2;
-        changeButtonColor();
-    }
+    localStorage.distroToggle = 2;
+    changeButtonColor();
 }
 
 function TOGGLEARCH(){
-    if (localStorage.distroToggle != 3){
-        localStorage.distroToggle = 3;
-        changeButtonColor();   
-    }
+    localStorage.distroToggle = 3;
+    changeButtonColor();   
 }
 
 function TOGGLEGENTOO(){
-    if (localStorage.distroToggle != 4){
-        localStorage.distroToggle = 4;
-        changeButtonColor();   
-    }
+    localStorage.distroToggle = 4;
+    changeButtonColor();   
 }
 
 function TOGGLEREDHAT(){
-    if (localStorage.distroToggle != 5){
-        localStorage.distroToggle = 5;
-        changeButtonColor();   
-    }
+    localStorage.distroToggle = 5;
+    changeButtonColor();   
 }
 
 function TOGGLESUSE(){
-    if (localStorage.distroToggle != 6){
-        localStorage.distroToggle = 6;
-        changeButtonColor();   
-    }
+    localStorage.distroToggle = 6;
+    changeButtonColor();   
 }
 
 function TOGGLESLACK(){
-    if (localStorage.distroToggle != 7){
-        localStorage.distroToggle = 7;
-        changeButtonColor();   
-    }
+    localStorage.distroToggle = 7;
+    changeButtonColor();   
 }
 
 function TOGGLEOTHER(){
-    if (localStorage.distroToggle != 8){
-        localStorage.distroToggle = 8;
-        changeButtonColor();   
-    }
+    localStorage.distroToggle = 8;
+    changeButtonColor();   
 }
 
 function dmchange(){
