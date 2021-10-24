@@ -34,7 +34,7 @@ var EOLToggle = localStorage.getItem("EOLToggle");
 //color palette from https://onaircode.com/html-css-color-palette-code-snippet/
 var curr_color, prev_color;
 var color_list = [
-    "#EC87C0", "#48CFAD", "#FC6E51", //pink, torquoise, orang 
+    "#EC87C0", "#48CFAD", "#FC6E51", //pink, torquoise, orange
     "#4FC1E9", "#AC92EC", "#ED5565", //aqua, purple, red
     "#A0D468", "#5D9CEC", "#FFCE54"  //green, blue, yellow
 ];
