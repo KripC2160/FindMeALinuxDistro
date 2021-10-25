@@ -38,7 +38,6 @@ var links = [
     "https://ubuntustudio.org/",
     "https://www.edubuntu.org/",
     "https://www.backbox.org/",
-    "https://www.backslashlinux.com/",
     "https://zorinos.com/",
     "https://galliumos.org/",
     "https://elementary.io/",
@@ -210,6 +209,7 @@ var EOLlinks = [
     "https://archiveos.org/astaro/",
     "https://archiveos.org/antergos/",
     "https://www.jolicloud.com/jolios/",
+    "https://www.backslashlinux.com/"
 ];
 
 
@@ -233,7 +233,6 @@ var debainlinks = [
     "https://ubuntustudio.org/",
     "https://www.edubuntu.org/",
     "https://www.backbox.org/",
-    "https://www.backslashlinux.com/",
     "https://zorinos.com/",
     "https://galliumos.org/",
     "https://elementary.io/",
@@ -306,6 +305,7 @@ var EOLdebianlinks = [
     "https://archiveos.org/delix/",
     "https://archiveos.org/muriqui/",
     "https://www.jolicloud.com/jolios/",
+    "https://www.backslashlinux.com/"
 ];
 
 var archlinks = [
@@ -326,7 +326,8 @@ var archlinks = [
     "https://garudalinux.org/",
     "https://tos.odex.be/",
     "https://arcolinux.com/",
-    "https://arcolinuxb.com/"
+    "https://arcolinuxb.com/",
+    "https://rebornos.org/"
 ];
 
 var EOLarchlinks = [
@@ -434,11 +435,8 @@ var otherlinks =[
     "https://crux.nu/",
     "https://www.alpinelinux.org/",
     "https://bedrocklinux.org/",
-    "https://rebornos.org/", //I have no idea which parent distro it's from so for not it belongs here
-    "https://reactos.org/", //this one as well
     "https://kaosx.us/",
     "https://thinstation.github.io/thinstation/",
-    "https://spi.dod.mil/lipose.htm" //not only is this distro having issues with security for it's website, the funding ended. Might move to EOL so I would have to keep an eye on them
 ];
 var EOLotherlinks = [
     "https://archiveos.org/kateos/",
@@ -451,5 +449,6 @@ var EOLotherlinks = [
     //yeah it turns out biebian is not part of Debian or Ubuntu (shoking) it's acutally part of Puppy Linux which was part of a joke
     "https://blankon.id/", //parent distribution uknown, check out later
     "https://archiveos.org/saluki/",
-    "https://archiveos.org/carolina/"
+    "https://archiveos.org/carolina/",
+    "https://web.archive.org/web/20210720175650/https://spi.dod.mil/lipose.htm" 
 ];
