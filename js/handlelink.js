@@ -131,7 +131,8 @@ var links = [
     "https://silverblue.fedoraproject.org/",
     "https://www.jostroos.ml/amogos/", //ඞ sus
     "https://almalinux.org",
-    "https://ibuntuos.com"
+    "https://ibuntuos.com",
+    "https://nxos.org/"
 ];
 
 var EOLlinks = [
@@ -270,7 +271,8 @@ var debainlinks = [
     "https://sourceforge.net/projects/rebeccablackos/", //Rebecca Black operating system 
     "https://regolith-linux.org/",
     "https://www.jostroos.ml/amogos/", //impasta 
-    "https://ibuntuos.com"
+    "https://ibuntuos.com",
+    "https://nxos.org/"
 ];
 
 var EOLdebianlinks = [
