@@ -140,8 +140,7 @@ var links = [
     "https://www.dragonflybsd.org/",
     "https://www.midnightbsd.org/",
     "https://nomadbsd.org/",
-    "https://hellosystem.github.io/",
-    "https://rockylinux.org/"
+    "https://hellosystem.github.io/"
 ];
 
 var EOLlinks = [
@@ -403,8 +402,7 @@ var redhatlinks = [
     "https://en.altlinux.org/Downloads",
     "https://silverblue.fedoraproject.org/",
     "https://almalinux.org",
-    "https://ultramarine-linux.org",
-    "https://rockylinux.org/"
+    "https://ultramarine-linux.org"
 ];
 
 var EOLredhatlinks = [
@@ -453,6 +451,16 @@ var otherlinks =[
     "https://bedrocklinux.org/",
     "https://kaosx.us/",
     "https://thinstation.github.io/thinstation/",
+    "https://www.ghostbsd.org/",
+    "https://www.freebsd.org/",
+    "https://www.openbsd.org/",
+    "https://www.netbsd.org/",
+    "https://www.dragonflybsd.org/",
+    "https://www.midnightbsd.org/",
+    "https://nomadbsd.org/",
+    "https://hellosystem.github.io/",
+    "https://www.freedos.org/",
+    "https://www.dosbox.com/",
     "https://asahilinux.org/",
     "https://cb-linux.github.io/breath/"
 ];

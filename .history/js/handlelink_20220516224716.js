@@ -1,7 +1,6 @@
 //This file contains all the links 
 var links = [
     "https://ubuntu.com/",
-    "http://ubuntuce.com/",
     "https://pop.system76.com/",
     "https://www.kali.org/",
     "https://tails.boum.org/",
@@ -44,6 +43,7 @@ var links = [
     "https://elementary.io/",
     "https://ubuntuunity.org/",
     "https://emmabuntus.org/category/english/",
+    "http://www.ututo.org/en/",
     "https://neon.kde.org/",
     "https://www.linuxliteos.com/",
     "http://www.linuxmce.org/",
@@ -61,12 +61,13 @@ var links = [
     "http://www.knopper.net/knoppix/index-en.html",
     "https://www.devuan.org/",
     "https://www.deepin.org/en/",
-    "https://www.crunchbangplusplus.org/",
+    "https://www.crunchbangplusplus.org/oldindex.html",
     "http://www.damnsmalllinux.org/",
     "https://archbang.org/",
     "https://artixlinux.org/",
     "https://archlabslinux.com/",
     "https://www.blackarch.org/",
+    "https://www.chakralinux.org/",
     "https://endeavouros.com/",
     "https://www.frugalware.org/",
     "https://www.hyperbola.info/",
@@ -99,6 +100,7 @@ var links = [
     "https://crux.nu/",
     "https://www.alpinelinux.org/",
     "https://armbian.com",
+    "http://justbrowsinglinux.com/",
     "https://qntm.org/suicide",
     "http://www.slackware.com/",
     "https://www.parabola.nu/",
@@ -132,16 +134,7 @@ var links = [
     "https://ibuntuos.com",
     "https://nxos.org/",
     "https://ultramarine-linux.org",
-    "https://en.cutefishos.com/", //the website takes ages to load, if ever
-    "https://www.ghostbsd.org/",
-    "https://www.freebsd.org/",
-    "https://www.openbsd.org/",
-    "https://www.netbsd.org/",
-    "https://www.dragonflybsd.org/",
-    "https://www.midnightbsd.org/",
-    "https://nomadbsd.org/",
-    "https://hellosystem.github.io/",
-    "https://rockylinux.org/"
+    "https://en.cutefishos.com/"
 ];
 
 var EOLlinks = [
@@ -193,6 +186,7 @@ var EOLlinks = [
     "https://archiveos.org/saluki/",
     "https://www.caelinux.com/CMS3/",
     "https://archiveos.org/carolina/",
+    "http://ubuntuce.com/", //christian ubuntu XD 
     "https://archiveos.org/ubuntu-satanic/", //in the other spectrum we have satanic ubuntu
     "https://www.caine-live.net/",
     "https://archiveos.org/asplinux/",
@@ -219,8 +213,7 @@ var EOLlinks = [
     "https://archiveos.org/astaro/",
     "https://archiveos.org/antergos/",
     "https://www.jolicloud.com/jolios/",
-    "https://www.backslashlinux.com/",
-    "http://www.ututo.org/en/"
+    "https://www.backslashlinux.com/"
 ];
 
 
@@ -265,7 +258,7 @@ var debianlinks = [
     "http://www.knopper.net/knoppix/index-en.html",
     "https://www.devuan.org/",
     "https://www.deepin.org/en/",
-    "https://www.crunchbangplusplus.org/",
+    "https://www.crunchbangplusplus.org/oldindex.html",
     "http://www.damnsmalllinux.org/",
     "https://getsol.us/home/",
     "https://armbian.com",
@@ -282,8 +275,7 @@ var debianlinks = [
     "https://www.jostroos.ml/amogos/", //impasta 
     "https://ibuntuos.com",
     "https://nxos.org/",
-    "https://en.cutefishos.com/",
-    "http://ubuntuce.com/"
+    "https://en.cutefishos.com/"
 ];
 
 var EOLdebianlinks = [
@@ -313,6 +305,7 @@ var EOLdebianlinks = [
     "http://environmentalomics.org/bio-linux/",
     "https://archiveos.org/black-lab/",
     "https://www.caelinux.com/CMS3/",
+    "http://ubuntuce.com/", //Bible also included in the distribution :O
     "https://archiveos.org/ubuntu-satanic/", //not sure if this distro has book of sin included
     "https://www.caine-live.net/",
     "https://archiveos.org/caixa-magica/",
@@ -329,9 +322,11 @@ var archlinks = [
     "https://artixlinux.org/",
     "https://archlabslinux.com/",
     "https://www.blackarch.org/",
+    "https://www.chakralinux.org/",
     "https://endeavouros.com/",
     "https://www.frugalware.org/",
     "https://www.hyperbola.info/",
+    "http://justbrowsinglinux.com/",
     "https://www.parabola.nu/",
     "https://instantos.io",
     "https://maboxlinux.org/",
@@ -347,9 +342,7 @@ var EOLarchlinks = [
     "https://archiveos.org/archeos/",
     "https://archiveos.org/architect/",
     "https://archiveos.org/archmerge/",
-    "https://archiveos.org/antergos/",
-    "https://archiveos.org/chakra/", //https://www.chakralinux.org/
-    "http://justbrowsinglinux.com/" //Cool but last release was in 2014
+    "https://archiveos.org/antergos/"
 ];
 
 var gentoolinks = [
@@ -403,8 +396,7 @@ var redhatlinks = [
     "https://en.altlinux.org/Downloads",
     "https://silverblue.fedoraproject.org/",
     "https://almalinux.org",
-    "https://ultramarine-linux.org",
-    "https://rockylinux.org/"
+    "https://ultramarine-linux.org"
 ];
 
 var EOLredhatlinks = [
@@ -453,8 +445,6 @@ var otherlinks =[
     "https://bedrocklinux.org/",
     "https://kaosx.us/",
     "https://thinstation.github.io/thinstation/",
-    "https://asahilinux.org/",
-    "https://cb-linux.github.io/breath/"
 ];
 var EOLotherlinks = [
     "https://archiveos.org/kateos/",
