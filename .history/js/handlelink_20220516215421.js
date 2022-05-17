@@ -129,7 +129,7 @@ var links = [
     "https://arcolinuxb.com/", //this linux has two different websites
     "https://regolith-linux.org/",
     "https://silverblue.fedoraproject.org/",
-    "https://amogos.studio/", //ඞ sus
+    "https://www.jostroos.ml/amogos/", //ඞ sus
     "https://almalinux.org",
     "https://ibuntuos.com",
     "https://nxos.org/"
