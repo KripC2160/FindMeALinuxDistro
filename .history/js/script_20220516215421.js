@@ -48,7 +48,7 @@ var distro_list = [
 function clicked(){
 
     var distrolink_list = [
-        "gap", links, debianlinks, archlinks, gentoolinks, 
+        "gap", links, debainlinks, archlinks, gentoolinks, 
         redhatlinks, suselinks, slacklinks, otherlinks
     ];
     
