@@ -60,7 +60,7 @@ var links = [
     "http://www.knopper.net/knoppix/index-en.html",
     "https://www.devuan.org/",
     "https://www.deepin.org/en/",
-    "https://www.crunchbangplusplus.org/",
+    "https://www.crunchbangplusplus.org/oldindex.html",
     "http://www.damnsmalllinux.org/",
     "https://archbang.org/",
     "https://artixlinux.org/",
