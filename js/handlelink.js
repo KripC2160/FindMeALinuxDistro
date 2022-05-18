@@ -472,6 +472,17 @@ var bsdlinks =[
     "https://hellosystem.github.io/"
 ];
 
+var EOLbsdlinks =[
+    "https://www.ghostbsd.org/",
+    "https://www.freebsd.org/",
+    "https://www.openbsd.org/",
+    "https://www.netbsd.org/",
+    "https://www.dragonflybsd.org/",
+    "https://www.midnightbsd.org/",
+    "https://nomadbsd.org/",
+    "https://hellosystem.github.io/"
+];
+
 var EOLotherlinks = [
     "https://archiveos.org/kateos/",
     "https://archiveos.org/caldera/",
