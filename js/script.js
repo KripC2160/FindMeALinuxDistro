@@ -43,7 +43,10 @@ var distro_list = [
     "TEST", "FMALDALL", "FMALDDEBIAN", "FMALDARCH", "FMALDGENTOO", "FMALDREDHAT", "FMALDSUSE", "FMALDSLACK", "FMALDOTHER"
 ];
 
-
+var elem_list = [
+    "FMALDOTHER", "FMALDALL", "FMALDDEBIAN", "FMALDARCH", "FMALDREDHAT", "FMALDSUSE",
+    "FMALDSLACK", "FMALDGENTOO"
+]
 
 function clicked(){
 
@@ -77,15 +80,10 @@ function changeButtonColor(){
         changeButtonColor();
     }
     else{
-
-        document.getElementById("FMALDOTHER").style.backgroundColor = "#3D3D3D";
-        document.getElementById("FMALDALL").style.backgroundColor = "#3D3D3D";
-        document.getElementById("FMALDDEBIAN").style.backgroundColor = "#3D3D3D";
-        document.getElementById("FMALDARCH").style.backgroundColor = "#3D3D3D";
-        document.getElementById("FMALDREDHAT").style.backgroundColor = "#3D3D3D";
-        document.getElementById("FMALDSUSE").style.backgroundColor = "#3D3D3D";
-        document.getElementById("FMALDSLACK").style.backgroundColor = "#3D3D3D";
-        document.getElementById("FMALDGENTOO").style.backgroundColor = "#3D3D3D";
+        
+        for(let i=0; i < elem_list.length; i++){
+            document.getElementById(elemn_list[i]).style.backgroundColor=color_list[color];
+        }
         
         if (localStorage.distroToggle == 1){
             document.getElementById("EOLon").style.backgroundColor = color_list[color];
