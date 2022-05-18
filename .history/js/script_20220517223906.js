@@ -36,8 +36,8 @@ var curr_color, prev_color;
 var color_list = [
     "#EC87C0", "#48CFAD", "#FC6E51", //pink, torquoise, orange
     "#4FC1E9", "#AC92EC", "#ED5565", //aqua, purple, red
-    "#A0D468", "#5D9CEC", "#FFCE54", //green, blue, mustar
-    "#CFA400"                        //yellow
+    "#A0D468", "#5D9CEC", "#FFCE54", //green, blue, yellow
+    "#CFA400"
 ];
 
 var distro_list = [
@@ -55,7 +55,7 @@ function clicked(){
     
     var eoldistrolink_list = [
         "gap", EOLlinks, EOLdebianlinks, EOLarchlinks, EOLgentoolinks, 
-        EOLredhatlinks, EOLsuselinks, EOLslacklinks, EOLbsdlinks, EOLotherlinks
+        EOLredhatlinks, EOLsuselinks, EOLslacklinks, EOLotherlinks
     ];
 
     if (EOLToggle == 1){
@@ -106,7 +106,7 @@ function changeButtonColor(){
             document.getElementById(distro_list[localStorage.distroToggle]).style.backgroundColor = color_list[localStorage.distroToggle]; 
         }
 
-        if (localStorage.distroToggle == 9){
+        if (localStorage.distroToggle == 8){
             document.getElementById("EOLon").style.backgroundColor = "white";
             document.getElementById("EOLoff").style.backgroundColor = "white";
             document.getElementById("EOLonly").style.backgroundColor = "white";
@@ -123,7 +123,7 @@ function changeButtonColor(){
     }
     
         if (EOLToggle == 1){
-            if (localStorage.distroToggle == 9){
+            if (localStorage.distroToggle == 8){
                 document.getElementById("EOLon").style.color = "#3D3D3D";
                 document.getElementById("EOLonly").style.color = "white";
                 document.getElementById("EOLoff").style.color = "white";
@@ -135,7 +135,7 @@ function changeButtonColor(){
             document.getElementById("EOLonly").style.backgroundColor = "#3D3D3D";
         }
         else if (EOLToggle == 2){
-            if (localStorage.distroToggle == 9){
+            if (localStorage.distroToggle == 8){
                 document.getElementById("EOLoff").style.color = "#3D3D3D";
                 document.getElementById("EOLonly").style.color = "white";
                 document.getElementById("EOLon").style.color = "white";
@@ -147,7 +147,7 @@ function changeButtonColor(){
             document.getElementById("EOLonly").style.backgroundColor = "#3D3D3D";
         }
         else if (EOLToggle == 3){
-            if (localStorage.distroToggle == 9){
+            if (localStorage.distroToggle == 8){
                 document.getElementById("EOLonly").style.color = "#3D3D3D";
                 document.getElementById("EOLoff").style.color = "white"
                 document.getElementById("EOLon").style.color = "white"
@@ -161,7 +161,7 @@ function changeButtonColor(){
         prev_color = curr_color;
         curr_color = color_list[color];
 
-    if (localStorage.distroToggle != 9){
+    if (localStorage.distroToggle != 8){
         document.getElementById("EOLon").style.color = "white";
         document.getElementById("EOLoff").style.color = "white";
         document.getElementById("FMALDOTHER").style.color = "white";
@@ -254,12 +254,12 @@ function TOGGLESLACK(){
     changeButtonColor();   
 }
 
-function TOGGLEBSD(){
+function TOGGLEOTHER(){
     localStorage.distroToggle = 8;
     changeButtonColor();   
 }
 
-function TOGGLEOTHER(){
+function TOGGLEBSD(){
     localStorage.distroToggle = 9;
     changeButtonColor();   
 }
