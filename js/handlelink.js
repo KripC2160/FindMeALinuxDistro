@@ -118,7 +118,7 @@ var links = [
     "https://www.bunsenlabs.org/",
     "https://lxle.net/",
     "https://tos.odex.be/",
-     "https://thinstation.github.io/thinstation/",
+    "https://thinstation.github.io/thinstation/",
     "https://spi.dod.mil/lipose.htm", //not only is this distro having issues with security for it's website, the funding ended. Might move to EOL so I would have to keep an eye on them
     "https://sourceforge.net/projects/rebeccablackos/", //Rebecca Black operating system 
     "https://caixamagica.pt/en/linux-cm",
