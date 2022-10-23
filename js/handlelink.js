@@ -13,7 +13,7 @@ var links = [
     "https://developers.redhat.com/products/rhel/download",
     "https://os.gnome.org/",
     "https://manjaro.org/",
-    "https://chromeenterprise.google/os/",
+    "https://chromeenterprise.google/os/chromeosflex/",
     "https://xubuntu.org/",
     "https://kubuntu.org/",
     "https://www.raspberrypi.org/software/",
@@ -373,7 +373,7 @@ var EOLarchlinks = [
 var gentoolinks = [
     "https://www.gentoo.org/",
     "https://www.sabayon.org/",
-    "https://chromeenterprise.google/os/",
+    "https://chromeenterprise.google/os/chromeosflex/",
     "https://www.calculate-linux.org/",
     "https://www.chromium.org/chromium-os",
     "https://pentoo.ch/",
