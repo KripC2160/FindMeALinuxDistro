@@ -155,7 +155,8 @@ var links = [
     "https://archhurd.org/", //Arch based on GNUHurd
     "https://www.freenix.net/",//Slackware with non-free packages
     "https://ravynos.com/",
-    "https://uwuntuos.site/"//uwu
+    "https://uwuntuos.site/",//uwu
+    "https://www.miraclelinux.com/"
 
 ];
 
@@ -428,7 +429,8 @@ var redhatlinks = [
     "https://rockylinux.org/",
     "https://berry-lab.net/",
     "https://sourceforge.net/projects/xange/", //Kedora
-    "https://img.cs.montana.edu/linux/montanalinux/" //Montana Linux
+    "https://img.cs.montana.edu/linux/montanalinux/", //Montana Linux
+    "https://www.miraclelinux.com/" //Japanese RHEL compatible system
 ];
 
 var EOLredhatlinks = [
