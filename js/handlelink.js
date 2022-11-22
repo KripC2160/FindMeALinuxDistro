@@ -156,7 +156,8 @@ var links = [
     "https://www.freenix.net/",//Slackware with non-free packages
     "https://ravynos.com/",
     "https://uwuntuos.site/",//uwu
-    "https://www.miraclelinux.com/"
+    "https://www.miraclelinux.com/",
+    "https://getcryst.al/site"//Arch distro with GNOME and Amethyst AUR helper
 
 ];
 
@@ -358,7 +359,8 @@ var archlinks = [
     "https://tos.odex.be/",
     "https://arcolinux.com/",
     "https://arcolinuxb.com/",
-    "https://rebornos.org/"
+    "https://rebornos.org/",
+    "https://getcryst.al/site"
 ];
 
 var EOLarchlinks = [
