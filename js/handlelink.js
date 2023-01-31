@@ -238,7 +238,7 @@ var EOLlinks = [
     "https://www.jolicloud.com/jolios/",
     "https://www.backslashlinux.com/",
     "http://www.ututo.org/en/",
-    "https://pikaos.ferreo.dev/"#Gaming Ubuntu based distro with Nobara Tweaks
+    "https://pikaos.ferreo.dev/" //Gaming Ubuntu based distro with Nobara Tweaks
 ];
 
 
@@ -266,7 +266,7 @@ var debianlinks = [
     "https://galliumos.org/",
     "https://elementary.io/",
     "https://ubuntuunity.org/",
-    "https://neon.kde.org/",
+    "https://neon.kde.org/",https://distro.moe/
     "https://www.linuxliteos.com/",
     "http://www.linuxmce.org/",
     "https://www.bodhilinux.com/",
