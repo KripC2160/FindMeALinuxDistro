@@ -266,7 +266,7 @@ var debianlinks = [
     "https://galliumos.org/",
     "https://elementary.io/",
     "https://ubuntuunity.org/",
-    "https://neon.kde.org/",https://distro.moe/
+    "https://neon.kde.org/",
     "https://www.linuxliteos.com/",
     "http://www.linuxmce.org/",
     "https://www.bodhilinux.com/",
