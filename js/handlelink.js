@@ -237,7 +237,8 @@ var EOLlinks = [
     "https://archiveos.org/antergos/",
     "https://www.jolicloud.com/jolios/",
     "https://www.backslashlinux.com/",
-    "http://www.ututo.org/en/"
+    "http://www.ututo.org/en/",
+    "https://pikaos.ferreo.dev/"#Gaming Ubuntu based distro with Nobara Tweaks
 ];
 
 
@@ -302,7 +303,8 @@ var debianlinks = [
     "https://cutefish-ubuntu.github.io/",
     "http://ubuntuce.com/",
     "https://spirallinux.github.io/",
-    "https://uwuntuos.site/"
+    "https://uwuntuos.site/",
+    "https://pikaos.ferreo.dev/"
     
 ];
 
