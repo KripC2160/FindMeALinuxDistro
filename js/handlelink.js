@@ -160,7 +160,8 @@ var links = [
     "https://getcryst.al/site",//Arch distro with GNOME and Amethyst AUR helper
     "https://escuelaslinux.sourceforge.io/english/index.html", //Based on Bodhi, designed for preschool
     "https://liguros.gitlab.io/", //Gentoo based
-    "https://pikaos.ferreo.dev/" //Gaming Ubuntu based distro with Nobara Tweaks
+    "https://pikaos.ferreo.dev/", //Gaming Ubuntu based distro with Nobara Tweaks
+    "https://redcorelinux.org/" //Hardened Gentoo
 
 ];
 
@@ -387,7 +388,8 @@ var gentoolinks = [
     "https://pentoo.ch/",
     "https://www.system-rescue.org/Download/",
     "https://www.mocaccino.org",
-    "https://liguros.gitlab.io/"
+    "https://liguros.gitlab.io/",
+    "https://redcorelinux.org/"
 ];
 
 var EOLgentoolinks = [
