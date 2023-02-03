@@ -157,7 +157,10 @@ var links = [
     "https://ravynos.com/",
     "https://uwuntuos.site/",//uwu
     "https://www.miraclelinux.com/",
-    "https://getcryst.al/site"//Arch distro with GNOME and Amethyst AUR helper
+    "https://getcryst.al/site",//Arch distro with GNOME and Amethyst AUR helper
+    "https://escuelaslinux.sourceforge.io/english/index.html", //Based on Bodhi, designed for preschool
+    "https://liguros.gitlab.io/", //Gentoo based
+    "https://pikaos.ferreo.dev/" //Gaming Ubuntu based distro with Nobara Tweaks
 
 ];
 
@@ -237,8 +240,7 @@ var EOLlinks = [
     "https://archiveos.org/antergos/",
     "https://www.jolicloud.com/jolios/",
     "https://www.backslashlinux.com/",
-    "http://www.ututo.org/en/",
-    "https://pikaos.ferreo.dev/" //Gaming Ubuntu based distro with Nobara Tweaks
+    "http://www.ututo.org/en/"
 ];
 
 
@@ -304,7 +306,8 @@ var debianlinks = [
     "http://ubuntuce.com/",
     "https://spirallinux.github.io/",
     "https://uwuntuos.site/",
-    "https://pikaos.ferreo.dev/"
+    "https://pikaos.ferreo.dev/",
+    "https://escuelaslinux.sourceforge.io/english/index.html"
     
 ];
 
@@ -383,7 +386,8 @@ var gentoolinks = [
     "https://www.chromium.org/chromium-os",
     "https://pentoo.ch/",
     "https://www.system-rescue.org/Download/",
-    "https://www.mocaccino.org"
+    "https://www.mocaccino.org",
+    "https://liguros.gitlab.io/"
 ];
 
 var EOLgentoolinks = [
