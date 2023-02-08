@@ -127,7 +127,6 @@ var links = [
     "https://arcolinuxb.com/", //this linux has two different websites
     "https://regolith-linux.org/",
     "https://silverblue.fedoraproject.org/",
-    "https://amogos.studio/", //ඞ sus
     "https://almalinux.org",
     "https://ibuntuos.com",
     "https://nxos.org/",
@@ -161,7 +160,8 @@ var links = [
     "https://escuelaslinux.sourceforge.io/english/index.html", //Based on Bodhi, designed for preschool
     "https://liguros.gitlab.io/", //Gentoo based
     "https://pikaos.ferreo.dev/", //Gaming Ubuntu based distro with Nobara Tweaks
-    "https://redcorelinux.org/" //Hardened Gentoo
+    "https://redcorelinux.org/", //Hardened Gentoo
+    "https://pearos.xyz/" //macos like Arch
 
 ];
 
@@ -300,7 +300,6 @@ var debianlinks = [
     "https://lxle.net/",
     "https://sourceforge.net/projects/rebeccablackos/", //Rebecca Black operating system 
     "https://regolith-linux.org/",
-    "https://www.jostroos.ml/amogos/", //impasta 
     "https://ibuntuos.com",
     "https://nxos.org/",
     "https://cutefish-ubuntu.github.io/",
@@ -345,7 +344,8 @@ var EOLdebianlinks = [
     "https://archiveos.org/delix/",
     "https://archiveos.org/muriqui/",
     "https://www.jolicloud.com/jolios/",
-    "https://www.backslashlinux.com/"
+    "https://www.backslashlinux.com/",
+    "https://amog-os.github.io/", //ඞ sus
 ];
 
 var archlinks = [
@@ -366,7 +366,8 @@ var archlinks = [
     "https://arcolinux.com/",
     "https://arcolinuxb.com/",
     "https://rebornos.org/",
-    "https://getcryst.al/site"
+    "https://getcryst.al/site",
+    "https://pearos.xyz/"
 ];
 
 var EOLarchlinks = [
