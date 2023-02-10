@@ -129,7 +129,7 @@ var links = [
     "https://silverblue.fedoraproject.org/",
     "https://almalinux.org",
     "https://ibuntuos.com",
-    "https://nxos.org/",
+    "https://nxos.org/", //System-d free Debian based
     "https://ultramarine-linux.org",
     "https://cutefish-ubuntu.github.io/",
     "https://www.ghostbsd.org/",
@@ -161,7 +161,13 @@ var links = [
     "https://liguros.gitlab.io/", //Gentoo based
     "https://pikaos.ferreo.dev/", //Gaming Ubuntu based distro with Nobara Tweaks
     "https://redcorelinux.org/", //Hardened Gentoo
-    "https://pearos.xyz/" //macos like Arch
+    "https://pearos.xyz/", //macos like Arch
+    "https://chimera-linux.org/",
+    "https://venomlinux.org/",
+    "https://kisslinux.org/",
+    "https://www.digi77.com/linux-kodachi/", //anti-forensic and anonymous distro based on Debian
+    "https://blends.debian.org/edu/",
+    "https://easyos.org/" //Experimental Linux distribution made by Puppy Linux's maintainer
 
 ];
 
@@ -307,7 +313,9 @@ var debianlinks = [
     "https://spirallinux.github.io/",
     "https://uwuntuos.site/",
     "https://pikaos.ferreo.dev/",
-    "https://escuelaslinux.sourceforge.io/english/index.html"
+    "https://escuelaslinux.sourceforge.io/english/index.html",
+    "https://www.digi77.com/linux-kodachi/",
+    "https://blends.debian.org/edu/"
     
 ];
 
@@ -497,7 +505,10 @@ var otherlinks =[
     "https://cb-linux.github.io/breath/",
     "https://ponyos.org/",
     "http://collapseos.org/",
-    "https://archhurd.org/"
+    "https://archhurd.org/",
+    "https://venomlinux.org/",
+    "https://kisslinux.org/",
+    "https://easyos.org/"
 ];
 
 var bsdlinks =[
@@ -509,7 +520,8 @@ var bsdlinks =[
     "https://www.midnightbsd.org/",
     "https://nomadbsd.org/",
     "https://hellosystem.github.io/",
-    "https://ravynos.com/"
+    "https://ravynos.com/",
+    "https://chimera-linux.org/"
 ];
 
 var EOLbsdlinks =[
