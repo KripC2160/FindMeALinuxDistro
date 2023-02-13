@@ -169,7 +169,8 @@ var links = [
     "https://blends.debian.org/edu/",
     "https://easyos.org/", //Experimental Linux distribution made by Puppy Linux's maintainer
     "https://www.plamolinux.org/", //Slackware-based
-    "http://www.omoikane.co.jp/" //Debian-based Japanese distro meant for business support through licensing
+    "http://www.omoikane.co.jp/", //Debian-based Japanese distro meant for business support through licensing
+    "https://fuguita.org/" //OpenBSD-based live system
 
 ];
 
@@ -525,7 +526,8 @@ var bsdlinks =[
     "https://nomadbsd.org/",
     "https://hellosystem.github.io/",
     "https://ravynos.com/",
-    "https://chimera-linux.org/"
+    "https://chimera-linux.org/",
+    "https://fuguita.org/"
 ];
 
 var EOLbsdlinks =[
