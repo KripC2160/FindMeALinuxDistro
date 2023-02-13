@@ -167,7 +167,9 @@ var links = [
     "https://kisslinux.org/",
     "https://www.digi77.com/linux-kodachi/", //anti-forensic and anonymous distro based on Debian
     "https://blends.debian.org/edu/",
-    "https://easyos.org/" //Experimental Linux distribution made by Puppy Linux's maintainer
+    "https://easyos.org/", //Experimental Linux distribution made by Puppy Linux's maintainer
+    "https://www.plamolinux.org/", //Slackware-based
+    "http://www.omoikane.co.jp/" //Debian-based Japanese distro meant for business support through licensing
 
 ];
 
@@ -315,7 +317,8 @@ var debianlinks = [
     "https://pikaos.ferreo.dev/",
     "https://escuelaslinux.sourceforge.io/english/index.html",
     "https://www.digi77.com/linux-kodachi/",
-    "https://blends.debian.org/edu/"
+    "https://blends.debian.org/edu/",
+    "http://www.omoikane.co.jp/"
     
 ];
 
@@ -421,7 +424,8 @@ var slacklinks = [
     "http://www.porteus.org/",
     "https://www.dnalinux.com/",
     "http://www.zenwalk.org/",
-    "https://www.freenix.net/"//Slackware with non-free packages
+    "https://www.freenix.net/",//Slackware with non-free packages
+    "https://www.plamolinux.org/"
 ];
 
 var EOLslacklinks = [
