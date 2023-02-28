@@ -128,8 +128,8 @@ footer{
     top: 0px;
     left: -20px;
     text-align: center;
-    display: grid;
-    justify-content: center;
+    /*display: grid;*/
+    /*justify-content: center;*/
     bottom: 0;
 }
 
