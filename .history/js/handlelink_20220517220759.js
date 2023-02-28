@@ -13,7 +13,7 @@ var links = [
     "https://developers.redhat.com/products/rhel/download",
     "https://os.gnome.org/",
     "https://manjaro.org/",
-    "https://chromeenterprise.google/os/chromeosflex/",
+    "https://chromeenterprise.google/os/",
     "https://xubuntu.org/",
     "https://kubuntu.org/",
     "https://www.raspberrypi.org/software/",
@@ -33,7 +33,7 @@ var links = [
     "https://www.pureos.net/",
     "https://astralinux.ru/en/",
     "https://www.parrotsec.org/",
-    "https://lubuntu.me/",
+    "https://lubuntu.net/",
     "https://ubuntubudgie.org/",
     "https://ubuntu-mate.org/",
     "https://ubuntustudio.org/",
@@ -127,11 +127,12 @@ var links = [
     "https://arcolinuxb.com/", //this linux has two different websites
     "https://regolith-linux.org/",
     "https://silverblue.fedoraproject.org/",
+    "https://amogos.studio/", //ඞ sus
     "https://almalinux.org",
     "https://ibuntuos.com",
-    "https://nxos.org/", //System-d free Debian based
+    "https://nxos.org/",
     "https://ultramarine-linux.org",
-    "https://cutefish-ubuntu.github.io/",
+    "https://en.cutefishos.com/", //the website takes ages to load, if ever
     "https://www.ghostbsd.org/",
     "https://www.freebsd.org/",
     "https://www.openbsd.org/",
@@ -141,36 +142,8 @@ var links = [
     "https://nomadbsd.org/",
     "https://hellosystem.github.io/",
     "https://rockylinux.org/",
-    "https://www.mocaccino.org",
-    "https://spirallinux.github.io/", //Created by Gecko Linux's anonymous author
-    "https://ponyos.org/", //Completely forgot about this
-    "http://collapseos.org/",
-    "https://nobaraproject.org/",
-    "https://linuxkamarada.com/",
-    "https://berry-lab.net/",
-    "https://sourceforge.net/projects/xange/", //Kedora
-    "https://img.cs.montana.edu/linux/montanalinux/",//Montana Linux
-    "https://www.regataos.com", //Based on OpenSuse Leap
-    "https://archhurd.org/", //Arch based on GNUHurd
-    "https://www.freenix.net/",//Slackware with non-free packages
-    "https://ravynos.com/",
-    "https://uwuntuos.site/",//uwu
-    "https://www.miraclelinux.com/",
-    "https://getcryst.al/site",//Arch distro with GNOME and Amethyst AUR helper
-    "https://escuelaslinux.sourceforge.io/english/index.html", //Based on Bodhi, designed for preschool
-    "https://liguros.gitlab.io/", //Gentoo based
-    "https://pikaos.ferreo.dev/", //Gaming Ubuntu based distro with Nobara Tweaks
-    "https://redcorelinux.org/", //Hardened Gentoo
-    "https://pearos.xyz/", //macos like Arch
-    "https://chimera-linux.org/",
-    "https://venomlinux.org/",
-    "https://kisslinux.org/",
-    "https://www.digi77.com/linux-kodachi/", //anti-forensic and anonymous distro based on Debian
-    "https://blends.debian.org/edu/",
-    "https://easyos.org/", //Experimental Linux distribution made by Puppy Linux's maintainer
-    "https://www.plamolinux.org/", //Slackware-based
-    "http://www.omoikane.co.jp/", //Debian-based Japanese distro meant for business support through licensing
-    "https://fuguita.org/" //OpenBSD-based live system
+    "https://www.mocaccino.org"
+
 ];
 
 var EOLlinks = [
@@ -267,7 +240,7 @@ var debianlinks = [
     "https://www.pureos.net/",
     "https://astralinux.ru/en/",
     "https://www.parrotsec.org/",
-    "https://lubuntu.me/",
+    "https://lubuntu.net/",
     "https://ubuntubudgie.org/",
     "https://ubuntu-mate.org/",
     "https://ubuntustudio.org/",
@@ -308,18 +281,11 @@ var debianlinks = [
     "https://lxle.net/",
     "https://sourceforge.net/projects/rebeccablackos/", //Rebecca Black operating system 
     "https://regolith-linux.org/",
+    "https://www.jostroos.ml/amogos/", //impasta 
     "https://ibuntuos.com",
     "https://nxos.org/",
-    "https://cutefish-ubuntu.github.io/",
-    "http://ubuntuce.com/",
-    "https://spirallinux.github.io/",
-    "https://uwuntuos.site/",
-    "https://pikaos.ferreo.dev/",
-    "https://escuelaslinux.sourceforge.io/english/index.html",
-    "https://www.digi77.com/linux-kodachi/",
-    "https://blends.debian.org/edu/",
-    "http://www.omoikane.co.jp/"
-    
+    "https://en.cutefishos.com/",
+    "http://ubuntuce.com/"
 ];
 
 var EOLdebianlinks = [
@@ -355,8 +321,7 @@ var EOLdebianlinks = [
     "https://archiveos.org/delix/",
     "https://archiveos.org/muriqui/",
     "https://www.jolicloud.com/jolios/",
-    "https://www.backslashlinux.com/",
-    "https://amog-os.github.io/", //ඞ sus
+    "https://www.backslashlinux.com/"
 ];
 
 var archlinks = [
@@ -376,9 +341,7 @@ var archlinks = [
     "https://tos.odex.be/",
     "https://arcolinux.com/",
     "https://arcolinuxb.com/",
-    "https://rebornos.org/",
-    "https://getcryst.al/site",
-    "https://pearos.xyz/"
+    "https://rebornos.org/"
 ];
 
 var EOLarchlinks = [
@@ -394,14 +357,12 @@ var EOLarchlinks = [
 var gentoolinks = [
     "https://www.gentoo.org/",
     "https://www.sabayon.org/",
-    "https://chromeenterprise.google/os/chromeosflex/",
+    "https://chromeenterprise.google/os/",
     "https://www.calculate-linux.org/",
     "https://www.chromium.org/chromium-os",
     "https://pentoo.ch/",
     "https://www.system-rescue.org/Download/",
-    "https://www.mocaccino.org",
-    "https://liguros.gitlab.io/",
-    "https://redcorelinux.org/"
+    "https://www.mocaccino.org"
 ];
 
 var EOLgentoolinks = [
@@ -423,9 +384,7 @@ var slacklinks = [
     "http://topologi-linux.sourceforge.net/",
     "http://www.porteus.org/",
     "https://www.dnalinux.com/",
-    "http://www.zenwalk.org/",
-    "https://www.freenix.net/",//Slackware with non-free packages
-    "https://www.plamolinux.org/"
+    "http://www.zenwalk.org/"
 ];
 
 var EOLslacklinks = [
@@ -449,11 +408,7 @@ var redhatlinks = [
     "https://silverblue.fedoraproject.org/",
     "https://almalinux.org",
     "https://ultramarine-linux.org",
-    "https://rockylinux.org/",
-    "https://berry-lab.net/",
-    "https://sourceforge.net/projects/xange/", //Kedora
-    "https://img.cs.montana.edu/linux/montanalinux/", //Montana Linux
-    "https://www.miraclelinux.com/" //Japanese RHEL compatible system
+    "https://rockylinux.org/"
 ];
 
 var EOLredhatlinks = [
@@ -464,16 +419,13 @@ var EOLredhatlinks = [
     'https://vinelinux.org/',
     "https://archiveos.org/asplinux/",
     "https://archiveos.org/tao/",
-    "https://archiveos.org/startcom/",
-    "https://nobaraproject.org/"
+    "https://archiveos.org/startcom/"
 ];
 
 var suselinks = [ //there aren't a lot of suse unfortunetly 
     "https://www.opensuse.org/",
     "https://geckolinux.github.io/",
-    "https://easynas.org/",
-    "https://linuxkamarada.com/", //Current version is 15.3, while openSuse Leap is 15.4, if it gets behind another version it will be considered EOL
-    "https://www.regataos.com/"
+    "https://easynas.org/"
 ];
 
 var EOLsuselinks = [
@@ -507,12 +459,6 @@ var otherlinks =[
     "https://thinstation.github.io/thinstation/",
     "https://asahilinux.org/",
     "https://cb-linux.github.io/breath/",
-    "https://ponyos.org/",
-    "http://collapseos.org/",
-    "https://archhurd.org/",
-    "https://venomlinux.org/",
-    "https://kisslinux.org/",
-    "https://easyos.org/"
 ];
 
 var bsdlinks =[
@@ -523,20 +469,7 @@ var bsdlinks =[
     "https://www.dragonflybsd.org/",
     "https://www.midnightbsd.org/",
     "https://nomadbsd.org/",
-    "https://hellosystem.github.io/",
-    "https://ravynos.com/",
-    "https://chimera-linux.org/",
-    "https://fuguita.org/"
-];
-
-var EOLbsdlinks =[
-    "https://www.ghostbsd.org/",
-    "https://www.freebsd.org/",
-    "https://www.openbsd.org/",
-    "https://www.netbsd.org/",
-    "https://www.dragonflybsd.org/",
-    "https://www.midnightbsd.org/",
-    "https://nomadbsd.org/"
+    "https://hellosystem.github.io/"
 ];
 
 var EOLotherlinks = [

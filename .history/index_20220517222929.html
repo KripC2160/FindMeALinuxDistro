@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Find Me a GNU(+Linux) Distro</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="shortcut icon" type="image/png" href="img/randomdistrofavicon.png">
+        <link rel="stylesheet" type="text/css"href="css/style.css" />
+    </head>
+    <body onload="changeButtonColor()">
+        <script src="js/script.js"></script>        
+        <script src="js/handlelink.js"></script>
+        <h1 class="BigTitle" id="BigTitle">Find me a GNU(+Linux) Distro</h1>
+        <h3 class="smallerTitle">Discover a new GNU(+Linux) distribution with a single click</h3>
+        <div class="darkmode">
+            <button id="dmbutton" onclick="dmchange()">
+                <img src="img/thememode.png" id="dmimg">
+            </button>
+        </div>
+        <div class="content">
+            <button id="random-button" onclick="clicked()">Find Me a GNU(+Linux) Distro</button>
+        </div>
+        <div class="FMALDportal">
+            <span class="tip">You can choose specific variant of distributions you want to see using this option</span>
+            <!-- number of items in fmald including index: 9-->
+            <button class="FMALDALL" id="FMALDALL" onclick="TOGGLEALL()">All</button>
+            <button class="FMALDDEBIAN" id="FMALDDEBIAN" onclick="TOGGLEDEBIAN()">DEBIAN</button>
+            <button class="FMALDARCH" id="FMALDARCH" onclick="TOGGLEARCH()">ARCH</button>
+            <button class="FMALDGENTOO" id="FMALDGENTOO" onclick="TOGGLEGENTOO()">GENTOO</button>
+            <button class="FMALDREDHAT" id="FMALDREDHAT" onclick="TOGGLEREDHAT()">RED HAT</button>
+            <button class="FMALDSUSE" id="FMALDSUSE" onclick="TOGGLESUSE()">SuSE</button>
+            <button class="FMALDSLACK" id="FMALDSLACK" onclick="TOGGLESLACK()">Slack</button>
+            <button class="FMALDBSD" id="FMALDBSD" onclick="TOGGLEBSD()">BSD</button>
+            <button class="FMALDOTHER" id="FMALDOTHER" onclick="TOGGLEOTHER()">OTHER</button>
+        </div>
+        <div class="EOLsettings">
+            <span class="tip">Option for EOL (End Of Life) Distributions</span>
+            <button class="EOLoff" id="EOLoff" onclick="TOGGLEEOLOFF()">EOL Off</button>
+            <button class="EOLon" id="EOLon" onclick="TOGGLEEOLON()">EOL On</button>
+            <button class="EOLonly" id="EOLonly" onclick="TOGGLEEOLONLY()">EOL Only</button>
+        </div>
+        <footer>
+            <button class="GH" onclick="relocateGithubHome()"><img src="img/GitHub_logo.png" width="50px" height="50px"></button>
+            <button class="suggestions" onclick="relocateGithub()">Suggestions?</button>
+            <h2 class="creditsanddate">© <script>document.write(new Date().getFullYear());</script>, Project by KripC</h2> <!-- the script automatically updates the year-->
+        </footer>
+    </body>
+</html>

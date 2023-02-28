@@ -13,7 +13,7 @@ var links = [
     "https://developers.redhat.com/products/rhel/download",
     "https://os.gnome.org/",
     "https://manjaro.org/",
-    "https://chromeenterprise.google/os/chromeosflex/",
+    "https://chromeenterprise.google/os/",
     "https://xubuntu.org/",
     "https://kubuntu.org/",
     "https://www.raspberrypi.org/software/",
@@ -127,9 +127,10 @@ var links = [
     "https://arcolinuxb.com/", //this linux has two different websites
     "https://regolith-linux.org/",
     "https://silverblue.fedoraproject.org/",
+    "https://amogos.studio/", //ඞ sus
     "https://almalinux.org",
     "https://ibuntuos.com",
-    "https://nxos.org/", //System-d free Debian based
+    "https://nxos.org/",
     "https://ultramarine-linux.org",
     "https://cutefish-ubuntu.github.io/",
     "https://www.ghostbsd.org/",
@@ -153,24 +154,8 @@ var links = [
     "https://www.regataos.com", //Based on OpenSuse Leap
     "https://archhurd.org/", //Arch based on GNUHurd
     "https://www.freenix.net/",//Slackware with non-free packages
-    "https://ravynos.com/",
-    "https://uwuntuos.site/",//uwu
-    "https://www.miraclelinux.com/",
-    "https://getcryst.al/site",//Arch distro with GNOME and Amethyst AUR helper
-    "https://escuelaslinux.sourceforge.io/english/index.html", //Based on Bodhi, designed for preschool
-    "https://liguros.gitlab.io/", //Gentoo based
-    "https://pikaos.ferreo.dev/", //Gaming Ubuntu based distro with Nobara Tweaks
-    "https://redcorelinux.org/", //Hardened Gentoo
-    "https://pearos.xyz/", //macos like Arch
-    "https://chimera-linux.org/",
-    "https://venomlinux.org/",
-    "https://kisslinux.org/",
-    "https://www.digi77.com/linux-kodachi/", //anti-forensic and anonymous distro based on Debian
-    "https://blends.debian.org/edu/",
-    "https://easyos.org/", //Experimental Linux distribution made by Puppy Linux's maintainer
-    "https://www.plamolinux.org/", //Slackware-based
-    "http://www.omoikane.co.jp/", //Debian-based Japanese distro meant for business support through licensing
-    "https://fuguita.org/" //OpenBSD-based live system
+    "https://ravynos.com/"
+
 ];
 
 var EOLlinks = [
@@ -308,17 +293,12 @@ var debianlinks = [
     "https://lxle.net/",
     "https://sourceforge.net/projects/rebeccablackos/", //Rebecca Black operating system 
     "https://regolith-linux.org/",
+    "https://www.jostroos.ml/amogos/", //impasta 
     "https://ibuntuos.com",
     "https://nxos.org/",
     "https://cutefish-ubuntu.github.io/",
     "http://ubuntuce.com/",
     "https://spirallinux.github.io/",
-    "https://uwuntuos.site/",
-    "https://pikaos.ferreo.dev/",
-    "https://escuelaslinux.sourceforge.io/english/index.html",
-    "https://www.digi77.com/linux-kodachi/",
-    "https://blends.debian.org/edu/",
-    "http://www.omoikane.co.jp/"
     
 ];
 
@@ -355,8 +335,7 @@ var EOLdebianlinks = [
     "https://archiveos.org/delix/",
     "https://archiveos.org/muriqui/",
     "https://www.jolicloud.com/jolios/",
-    "https://www.backslashlinux.com/",
-    "https://amog-os.github.io/", //ඞ sus
+    "https://www.backslashlinux.com/"
 ];
 
 var archlinks = [
@@ -376,9 +355,7 @@ var archlinks = [
     "https://tos.odex.be/",
     "https://arcolinux.com/",
     "https://arcolinuxb.com/",
-    "https://rebornos.org/",
-    "https://getcryst.al/site",
-    "https://pearos.xyz/"
+    "https://rebornos.org/"
 ];
 
 var EOLarchlinks = [
@@ -394,14 +371,12 @@ var EOLarchlinks = [
 var gentoolinks = [
     "https://www.gentoo.org/",
     "https://www.sabayon.org/",
-    "https://chromeenterprise.google/os/chromeosflex/",
+    "https://chromeenterprise.google/os/",
     "https://www.calculate-linux.org/",
     "https://www.chromium.org/chromium-os",
     "https://pentoo.ch/",
     "https://www.system-rescue.org/Download/",
-    "https://www.mocaccino.org",
-    "https://liguros.gitlab.io/",
-    "https://redcorelinux.org/"
+    "https://www.mocaccino.org"
 ];
 
 var EOLgentoolinks = [
@@ -424,8 +399,7 @@ var slacklinks = [
     "http://www.porteus.org/",
     "https://www.dnalinux.com/",
     "http://www.zenwalk.org/",
-    "https://www.freenix.net/",//Slackware with non-free packages
-    "https://www.plamolinux.org/"
+    "https://www.freenix.net/"//Slackware with non-free packages
 ];
 
 var EOLslacklinks = [
@@ -452,8 +426,7 @@ var redhatlinks = [
     "https://rockylinux.org/",
     "https://berry-lab.net/",
     "https://sourceforge.net/projects/xange/", //Kedora
-    "https://img.cs.montana.edu/linux/montanalinux/", //Montana Linux
-    "https://www.miraclelinux.com/" //Japanese RHEL compatible system
+    "https://img.cs.montana.edu/linux/montanalinux/" //Montana Linux
 ];
 
 var EOLredhatlinks = [
@@ -509,10 +482,7 @@ var otherlinks =[
     "https://cb-linux.github.io/breath/",
     "https://ponyos.org/",
     "http://collapseos.org/",
-    "https://archhurd.org/",
-    "https://venomlinux.org/",
-    "https://kisslinux.org/",
-    "https://easyos.org/"
+    "https://archhurd.org/"
 ];
 
 var bsdlinks =[
@@ -524,9 +494,7 @@ var bsdlinks =[
     "https://www.midnightbsd.org/",
     "https://nomadbsd.org/",
     "https://hellosystem.github.io/",
-    "https://ravynos.com/",
-    "https://chimera-linux.org/",
-    "https://fuguita.org/"
+    "https://ravynos.com/"
 ];
 
 var EOLbsdlinks =[

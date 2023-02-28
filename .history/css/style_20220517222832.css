@@ -157,7 +157,7 @@ footer{
     bottom: 150px;
     background: var(--main-background);
     height: 50px;
-    width: 540px;
+    width: 480px;
     border-radius: 5px;
 }
 
@@ -248,11 +248,11 @@ footer{
 }
 
 .FMALDBSD{
-    left: 425px;
+    left: 365px;
 }
 
 .FMALDOTHER{
-    left: 485px;
+    left: 425px;
 }
 
 .FMALDEOL{
