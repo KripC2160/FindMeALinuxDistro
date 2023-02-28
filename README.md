@@ -1,4 +1,4 @@
-# **Find Me A Linux Distro**
+# **Find Me A Distro**
 
 
 [Find Me A Distro]("https://distro.moe"), or **FMAD** for short, is a website that finds random Unix/GNU+linux distributions. This project was initially created by me but is being continued by [MiguelCarino]("https://github.com/MiguelCarino/findmeadistro")
